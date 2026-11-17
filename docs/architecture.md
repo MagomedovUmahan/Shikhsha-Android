@@ -13,6 +13,18 @@
 
 ## Поток данных
 
+```mermaid
+flowchart LR
+    Sensor["Датчик шагов Android"] --> Service["StepService и StepAccumulator"]
+    Service --> Storage["StepStore и база ходьбы"]
+    Bridge["Нативный модуль Expo"] --> Service
+    Storage --> Bridge
+    Storage --> Widgets["Виджеты Android"]
+    Bridge --> UI["Экраны React Native"]
+    GPS["Геолокация Android"] --> Maps["Карта прогулки / MapLibre"]
+    Maps --> UI
+```
+
 1. `MainActivity` и `MainApplication` запускают React Native через Expo. Android-манифест также декларирует схему `shikhsha`.
 2. `ShikhshaPedometerModule` связывает JS с нативным состоянием. Методы включают `getSnapshot`, `getLiveSnapshot`, `getWalkMotion`, `getMotionBouts` и команды для виджетов.
 3. `StepService` и `StepAccumulator` обрабатывают счётчик шагов в Android. `StepStore`, `WalkingDatabase` и `WalkingStore` отвечают за сохранение состояния и истории. `WalkingEnergy` и `WalkingEnergyAccumulator` содержат оценку расхода энергии.
