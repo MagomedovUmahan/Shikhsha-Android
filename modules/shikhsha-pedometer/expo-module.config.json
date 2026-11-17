@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["ShikhshaPedometerModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.shikhsha.ShikhshaPedometerModule"]
+  }
+}
