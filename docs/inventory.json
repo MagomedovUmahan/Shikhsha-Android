@@ -1,0 +1,6777 @@
+{
+  "sha256": "5dc39bf72f0ca63b238a66cef47fb8893cb5c152891e433bf0e3b2df5ca1e073",
+  "size_bytes": 90944070,
+  "entry_count": 1331,
+  "groups": {
+    "META-INF": 65,
+    "assets": 4,
+    "classes.dex": 1,
+    "classes2.dex": 1,
+    "classes3.dex": 1,
+    "classes4.dex": 1,
+    "lib": 54,
+    "DebugProbesKt.bin": 1,
+    "kotlin-tooling-metadata.json": 1,
+    "kotlin": 8,
+    "okhttp3": 2,
+    "org": 128,
+    "play-services-base.properties": 1,
+    "play-services-basement.properties": 1,
+    "play-services-location.properties": 1,
+    "play-services-tasks.properties": 1,
+    "AndroidManifest.xml": 1,
+    "res": 1058,
+    "resources.arsc": 1
+  },
+  "features": {
+    "dex": {
+      "classes.dex": {
+        "format": "037",
+        "strings": 68932,
+        "class_definitions": 7737
+      },
+      "classes2.dex": {
+        "format": "037",
+        "strings": 6,
+        "class_definitions": 1
+      },
+      "classes3.dex": {
+        "format": "037",
+        "strings": 58284,
+        "class_definitions": 8159
+      },
+      "classes4.dex": {
+        "format": "037",
+        "strings": 43895,
+        "class_definitions": 5054
+      }
+    },
+    "native_abis": {
+      "arm64-v8a": [
+        "libappmodules.so",
+        "libc++_shared.so",
+        "libexpo-modules-core.so",
+        "libexpo-modules-jsi.so",
+        "libexpo-modules-v2.so",
+        "libexpo-modules-worklets.so",
+        "libexpo-sqlite.so",
+        "libfbjni.so",
+        "libgesturehandler.so",
+        "libgifimage.so",
+        "libhermestooling.so",
+        "libhermesvm.so",
+        "libimagepipeline.so",
+        "libjsi.so",
+        "libmaplibre.so",
+        "libnative-filters.so",
+        "libnative-imagetranscoder.so",
+        "libreact_codegen_rngesturehandler_codegen.so",
+        "libreact_codegen_rnscreens.so",
+        "libreact_codegen_rnsvg.so",
+        "libreact_codegen_safeareacontext.so",
+        "libreactnative.so",
+        "libreanimated.so",
+        "librnscreens.so",
+        "libstatic-webp.so",
+        "libworklets.so",
+        "libzstd-kmp.so"
+      ],
+      "x86_64": [
+        "libappmodules.so",
+        "libc++_shared.so",
+        "libexpo-modules-core.so",
+        "libexpo-modules-jsi.so",
+        "libexpo-modules-v2.so",
+        "libexpo-modules-worklets.so",
+        "libexpo-sqlite.so",
+        "libfbjni.so",
+        "libgesturehandler.so",
+        "libgifimage.so",
+        "libhermestooling.so",
+        "libhermesvm.so",
+        "libimagepipeline.so",
+        "libjsi.so",
+        "libmaplibre.so",
+        "libnative-filters.so",
+        "libnative-imagetranscoder.so",
+        "libreact_codegen_rngesturehandler_codegen.so",
+        "libreact_codegen_rnscreens.so",
+        "libreact_codegen_rnsvg.so",
+        "libreact_codegen_safeareacontext.so",
+        "libreactnative.so",
+        "libreanimated.so",
+        "librnscreens.so",
+        "libstatic-webp.so",
+        "libworklets.so",
+        "libzstd-kmp.so"
+      ]
+    },
+    "expo": {
+      "slug": "shikhsha",
+      "version": "1.9.0",
+      "sdkVersion": "58.0.0"
+    },
+    "bundle": {
+      "type": "Hermes",
+      "bytecode_version": 99
+    }
+  },
+  "entries": [
+    {
+      "path": "META-INF/com/android/build/gradle/app-metadata.properties",
+      "bytes": 56,
+      "compressed_bytes": 51
+    },
+    {
+      "path": "META-INF/version-control-info.textproto",
+      "bytes": 46,
+      "compressed_bytes": 48
+    },
+    {
+      "path": "assets/dexopt/baseline.prof",
+      "bytes": 2196,
+      "compressed_bytes": 2196
+    },
+    {
+      "path": "assets/dexopt/baseline.profm",
+      "bytes": 224,
+      "compressed_bytes": 224
+    },
+    {
+      "path": "classes.dex",
+      "bytes": 9866576,
+      "compressed_bytes": 3752121
+    },
+    {
+      "path": "classes2.dex",
+      "bytes": 560,
+      "compressed_bytes": 367
+    },
+    {
+      "path": "classes3.dex",
+      "bytes": 9457440,
+      "compressed_bytes": 3172442
+    },
+    {
+      "path": "classes4.dex",
+      "bytes": 6541200,
+      "compressed_bytes": 2412936
+    },
+    {
+      "path": "lib/arm64-v8a/libappmodules.so",
+      "bytes": 2510344,
+      "compressed_bytes": 2510344
+    },
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "bytes": 1292904,
+      "compressed_bytes": 1292904
+    },
+    {
+      "path": "lib/arm64-v8a/libexpo-modules-core.so",
+      "bytes": 1589544,
+      "compressed_bytes": 1589544
+    },
+    {
+      "path": "lib/arm64-v8a/libexpo-modules-jsi.so",
+      "bytes": 91072,
+      "compressed_bytes": 91072
+    },
+    {
+      "path": "lib/arm64-v8a/libexpo-modules-v2.so",
+      "bytes": 351880,
+      "compressed_bytes": 351880
+    },
+    {
+      "path": "lib/arm64-v8a/libexpo-modules-worklets.so",
+      "bytes": 115912,
+      "compressed_bytes": 115912
+    },
+    {
+      "path": "lib/arm64-v8a/libexpo-sqlite.so",
+      "bytes": 1717128,
+      "compressed_bytes": 1717128
+    },
+    {
+      "path": "lib/arm64-v8a/libfbjni.so",
+      "bytes": 177000,
+      "compressed_bytes": 177000
+    },
+    {
+      "path": "lib/arm64-v8a/libgesturehandler.so",
+      "bytes": 90488,
+      "compressed_bytes": 90488
+    },
+    {
+      "path": "lib/arm64-v8a/libgifimage.so",
+      "bytes": 319088,
+      "compressed_bytes": 319088
+    },
+    {
+      "path": "lib/arm64-v8a/libhermestooling.so",
+      "bytes": 140792,
+      "compressed_bytes": 140792
+    },
+    {
+      "path": "lib/arm64-v8a/libhermesvm.so",
+      "bytes": 2705536,
+      "compressed_bytes": 2705536
+    },
+    {
+      "path": "lib/arm64-v8a/libimagepipeline.so",
+      "bytes": 8760,
+      "compressed_bytes": 8760
+    },
+    {
+      "path": "lib/arm64-v8a/libjsi.so",
+      "bytes": 412784,
+      "compressed_bytes": 412784
+    },
+    {
+      "path": "lib/arm64-v8a/libmaplibre.so",
+      "bytes": 10846016,
+      "compressed_bytes": 10846016
+    },
+    {
+      "path": "lib/arm64-v8a/libnative-filters.so",
+      "bytes": 277744,
+      "compressed_bytes": 277744
+    },
+    {
+      "path": "lib/arm64-v8a/libnative-imagetranscoder.so",
+      "bytes": 585376,
+      "compressed_bytes": 585376
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_rngesturehandler_codegen.so",
+      "bytes": 366016,
+      "compressed_bytes": 366016
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_rnscreens.so",
+      "bytes": 1230344,
+      "compressed_bytes": 1230344
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_rnsvg.so",
+      "bytes": 771832,
+      "compressed_bytes": 771832
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "bytes": 154288,
+      "compressed_bytes": 154288
+    },
+    {
+      "path": "lib/arm64-v8a/libreactnative.so",
+      "bytes": 7048592,
+      "compressed_bytes": 7048592
+    },
+    {
+      "path": "lib/arm64-v8a/libreanimated.so",
+      "bytes": 1666760,
+      "compressed_bytes": 1666760
+    },
+    {
+      "path": "lib/arm64-v8a/librnscreens.so",
+      "bytes": 103928,
+      "compressed_bytes": 103928
+    },
+    {
+      "path": "lib/arm64-v8a/libstatic-webp.so",
+      "bytes": 502112,
+      "compressed_bytes": 502112
+    },
+    {
+      "path": "lib/arm64-v8a/libworklets.so",
+      "bytes": 1293000,
+      "compressed_bytes": 1293000
+    },
+    {
+      "path": "lib/arm64-v8a/libzstd-kmp.so",
+      "bytes": 731872,
+      "compressed_bytes": 731872
+    },
+    {
+      "path": "lib/x86_64/libappmodules.so",
+      "bytes": 2573968,
+      "compressed_bytes": 2573968
+    },
+    {
+      "path": "lib/x86_64/libc++_shared.so",
+      "bytes": 1252080,
+      "compressed_bytes": 1252080
+    },
+    {
+      "path": "lib/x86_64/libexpo-modules-core.so",
+      "bytes": 1542400,
+      "compressed_bytes": 1542400
+    },
+    {
+      "path": "lib/x86_64/libexpo-modules-jsi.so",
+      "bytes": 87224,
+      "compressed_bytes": 87224
+    },
+    {
+      "path": "lib/x86_64/libexpo-modules-v2.so",
+      "bytes": 362824,
+      "compressed_bytes": 362824
+    },
+    {
+      "path": "lib/x86_64/libexpo-modules-worklets.so",
+      "bytes": 110056,
+      "compressed_bytes": 110056
+    },
+    {
+      "path": "lib/x86_64/libexpo-sqlite.so",
+      "bytes": 1767336,
+      "compressed_bytes": 1767336
+    },
+    {
+      "path": "lib/x86_64/libfbjni.so",
+      "bytes": 172952,
+      "compressed_bytes": 172952
+    },
+    {
+      "path": "lib/x86_64/libgesturehandler.so",
+      "bytes": 86440,
+      "compressed_bytes": 86440
+    },
+    {
+      "path": "lib/x86_64/libgifimage.so",
+      "bytes": 303032,
+      "compressed_bytes": 303032
+    },
+    {
+      "path": "lib/x86_64/libhermestooling.so",
+      "bytes": 137496,
+      "compressed_bytes": 137496
+    },
+    {
+      "path": "lib/x86_64/libhermesvm.so",
+      "bytes": 2832176,
+      "compressed_bytes": 2832176
+    },
+    {
+      "path": "lib/x86_64/libimagepipeline.so",
+      "bytes": 8464,
+      "compressed_bytes": 8464
+    },
+    {
+      "path": "lib/x86_64/libjsi.so",
+      "bytes": 418848,
+      "compressed_bytes": 418848
+    },
+    {
+      "path": "lib/x86_64/libmaplibre.so",
+      "bytes": 11207424,
+      "compressed_bytes": 11207424
+    },
+    {
+      "path": "lib/x86_64/libnative-filters.so",
+      "bytes": 270784,
+      "compressed_bytes": 270784
+    },
+    {
+      "path": "lib/x86_64/libnative-imagetranscoder.so",
+      "bytes": 720432,
+      "compressed_bytes": 720432
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_rngesturehandler_codegen.so",
+      "bytes": 369672,
+      "compressed_bytes": 369672
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_rnscreens.so",
+      "bytes": 1247760,
+      "compressed_bytes": 1247760
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_rnsvg.so",
+      "bytes": 863552,
+      "compressed_bytes": 863552
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_safeareacontext.so",
+      "bytes": 154200,
+      "compressed_bytes": 154200
+    },
+    {
+      "path": "lib/x86_64/libreactnative.so",
+      "bytes": 7257672,
+      "compressed_bytes": 7257672
+    },
+    {
+      "path": "lib/x86_64/libreanimated.so",
+      "bytes": 1719320,
+      "compressed_bytes": 1719320
+    },
+    {
+      "path": "lib/x86_64/librnscreens.so",
+      "bytes": 100768,
+      "compressed_bytes": 100768
+    },
+    {
+      "path": "lib/x86_64/libstatic-webp.so",
+      "bytes": 561176,
+      "compressed_bytes": 561176
+    },
+    {
+      "path": "lib/x86_64/libworklets.so",
+      "bytes": 1241408,
+      "compressed_bytes": 1241408
+    },
+    {
+      "path": "lib/x86_64/libzstd-kmp.so",
+      "bytes": 816568,
+      "compressed_bytes": 816568
+    },
+    {
+      "path": "assets/app.config",
+      "bytes": 2234,
+      "compressed_bytes": 1050
+    },
+    {
+      "path": "assets/index.android.bundle",
+      "bytes": 2832436,
+      "compressed_bytes": 2832436
+    },
+    {
+      "path": "DebugProbesKt.bin",
+      "bytes": 1733,
+      "compressed_bytes": 780
+    },
+    {
+      "path": "META-INF/androidx.activity_activity-ktx.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.activity_activity.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.annotation_annotation-experimental.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.appcompat_appcompat-resources.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.appcompat_appcompat.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.arch.core_core-runtime.version",
+      "bytes": 67,
+      "compressed_bytes": 61
+    },
+    {
+      "path": "META-INF/androidx.autofill_autofill.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.cardview_cardview.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.core_core-ktx.version",
+      "bytes": 7,
+      "compressed_bytes": 7
+    },
+    {
+      "path": "META-INF/androidx.core_core-viewtree.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.core_core.version",
+      "bytes": 7,
+      "compressed_bytes": 7
+    },
+    {
+      "path": "META-INF/androidx.cursoradapter_cursoradapter.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.customview_customview.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.databinding_viewbinding.version",
+      "bytes": 5,
+      "compressed_bytes": 5
+    },
+    {
+      "path": "META-INF/androidx.documentfile_documentfile.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.drawerlayout_drawerlayout.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.dynamicanimation_dynamicanimation.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.emoji2_emoji2-views-helper.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.emoji2_emoji2.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.fragment_fragment-ktx.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.fragment_fragment.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.graphics_graphics-shapes.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.interpolator_interpolator.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version",
+      "bytes": 82,
+      "compressed_bytes": 71
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+      "bytes": 78,
+      "compressed_bytes": 67
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+      "bytes": 73,
+      "compressed_bytes": 62
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-process.version",
+      "bytes": 72,
+      "compressed_bytes": 60
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version",
+      "bytes": 76,
+      "compressed_bytes": 65
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+      "bytes": 72,
+      "compressed_bytes": 61
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version",
+      "bytes": 78,
+      "compressed_bytes": 67
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+      "bytes": 85,
+      "compressed_bytes": 74
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+      "bytes": 74,
+      "compressed_bytes": 63
+    },
+    {
+      "path": "META-INF/androidx.loader_loader.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.profileinstaller_profileinstaller.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.recyclerview_recyclerview.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.savedstate_savedstate-ktx.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.savedstate_savedstate.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.startup_startup-runtime.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.tracing_tracing-ktx.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.tracing_tracing.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.transition_transition-ktx.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.transition_transition.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.vectordrawable_vectordrawable.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.viewpager2_viewpager2.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.viewpager_viewpager.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.window_window-core.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx.window_window.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/androidx/annotation/annotation/LICENSE.txt",
+      "bytes": 10175,
+      "compressed_bytes": 3563
+    },
+    {
+      "path": "META-INF/com.google.android.material_material.version",
+      "bytes": 7,
+      "compressed_bytes": 7
+    },
+    {
+      "path": "META-INF/kotlinx_coroutines_android.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/kotlinx_coroutines_core.version",
+      "bytes": 6,
+      "compressed_bytes": 6
+    },
+    {
+      "path": "META-INF/services/kotlin.reflect.jvm.internal.impl.builtins.BuiltInsLoader",
+      "bytes": 90,
+      "compressed_bytes": 72
+    },
+    {
+      "path": "META-INF/services/kotlin.reflect.jvm.internal.impl.km.internal.extensions.MetadataExtensions",
+      "bytes": 70,
+      "compressed_bytes": 60
+    },
+    {
+      "path": "META-INF/services/kotlin.reflect.jvm.internal.impl.resolve.ExternalOverridabilityCondition",
+      "bytes": 235,
+      "compressed_bytes": 99
+    },
+    {
+      "path": "META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler",
+      "bytes": 54,
+      "compressed_bytes": 50
+    },
+    {
+      "path": "META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory",
+      "bytes": 52,
+      "compressed_bytes": 49
+    },
+    {
+      "path": "kotlin-tooling-metadata.json",
+      "bytes": 626,
+      "compressed_bytes": 284
+    },
+    {
+      "path": "kotlin/annotation/annotation.kotlin_builtins",
+      "bytes": 1006,
+      "compressed_bytes": 533
+    },
+    {
+      "path": "kotlin/collections/collections.kotlin_builtins",
+      "bytes": 8308,
+      "compressed_bytes": 1834
+    },
+    {
+      "path": "kotlin/concurrent/atomics/atomics.kotlin_builtins",
+      "bytes": 2674,
+      "compressed_bytes": 1082
+    },
+    {
+      "path": "kotlin/coroutines/coroutines.kotlin_builtins",
+      "bytes": 137,
+      "compressed_bytes": 116
+    },
+    {
+      "path": "kotlin/internal/internal.kotlin_builtins",
+      "bytes": 590,
+      "compressed_bytes": 357
+    },
+    {
+      "path": "kotlin/kotlin.kotlin_builtins",
+      "bytes": 29399,
+      "compressed_bytes": 5342
+    },
+    {
+      "path": "kotlin/ranges/ranges.kotlin_builtins",
+      "bytes": 4184,
+      "compressed_bytes": 1354
+    },
+    {
+      "path": "kotlin/reflect/reflect.kotlin_builtins",
+      "bytes": 4827,
+      "compressed_bytes": 1435
+    },
+    {
+      "path": "okhttp3/internal/publicsuffix/NOTICE",
+      "bytes": 218,
+      "compressed_bytes": 149
+    },
+    {
+      "path": "okhttp3/internal/publicsuffix/publicsuffixes.gz",
+      "bytes": 41394,
+      "compressed_bytes": 41394
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_any.txt",
+      "bytes": 4708,
+      "compressed_bytes": 1530
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_common.txt",
+      "bytes": 4971,
+      "compressed_bytes": 1431
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt",
+      "bytes": 831,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_english.txt",
+      "bytes": 1489,
+      "compressed_bytes": 740
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_french.txt",
+      "bytes": 1224,
+      "compressed_bytes": 616
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_german.txt",
+      "bytes": 1852,
+      "compressed_bytes": 759
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_hebrew.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_hungarian.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_polish.txt",
+      "bytes": 2228,
+      "compressed_bytes": 785
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_romanian.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_russian.txt",
+      "bytes": 1427,
+      "compressed_bytes": 676
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_approx_spanish.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_any.txt",
+      "bytes": 1952,
+      "compressed_bytes": 922
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_approx_common.txt",
+      "bytes": 1736,
+      "compressed_bytes": 792
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_common.txt",
+      "bytes": 1095,
+      "compressed_bytes": 591
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_english.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_french.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_german.txt",
+      "bytes": 826,
+      "compressed_bytes": 474
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_hebrew.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_hungarian.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_polish.txt",
+      "bytes": 875,
+      "compressed_bytes": 485
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_romanian.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_russian.txt",
+      "bytes": 831,
+      "compressed_bytes": 470
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_exact_spanish.txt",
+      "bytes": 830,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_hebrew_common.txt",
+      "bytes": 2983,
+      "compressed_bytes": 1028
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_lang.txt",
+      "bytes": 5080,
+      "compressed_bytes": 1551
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_languages.txt",
+      "bytes": 888,
+      "compressed_bytes": 508
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_any.txt",
+      "bytes": 9451,
+      "compressed_bytes": 2832
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt",
+      "bytes": 2366,
+      "compressed_bytes": 964
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_english.txt",
+      "bytes": 2970,
+      "compressed_bytes": 1273
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_french.txt",
+      "bytes": 2274,
+      "compressed_bytes": 958
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_german.txt",
+      "bytes": 2787,
+      "compressed_bytes": 1065
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_hebrew.txt",
+      "bytes": 1472,
+      "compressed_bytes": 680
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_hungarian.txt",
+      "bytes": 1960,
+      "compressed_bytes": 873
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_polish.txt",
+      "bytes": 4167,
+      "compressed_bytes": 1444
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_romanian.txt",
+      "bytes": 1526,
+      "compressed_bytes": 711
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_russian.txt",
+      "bytes": 3980,
+      "compressed_bytes": 1261
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/ash_rules_spanish.txt",
+      "bytes": 2073,
+      "compressed_bytes": 963
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_any.txt",
+      "bytes": 4043,
+      "compressed_bytes": 1506
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_arabic.txt",
+      "bytes": 991,
+      "compressed_bytes": 536
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_common.txt",
+      "bytes": 5120,
+      "compressed_bytes": 1466
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt",
+      "bytes": 831,
+      "compressed_bytes": 479
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_czech.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_dutch.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_english.txt",
+      "bytes": 1489,
+      "compressed_bytes": 740
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_french.txt",
+      "bytes": 942,
+      "compressed_bytes": 507
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_german.txt",
+      "bytes": 1853,
+      "compressed_bytes": 760
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_greek.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt",
+      "bytes": 845,
+      "compressed_bytes": 485
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_hebrew.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_hungarian.txt",
+      "bytes": 831,
+      "compressed_bytes": 478
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_italian.txt",
+      "bytes": 831,
+      "compressed_bytes": 478
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_polish.txt",
+      "bytes": 2183,
+      "compressed_bytes": 771
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_portuguese.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_romanian.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_russian.txt",
+      "bytes": 1437,
+      "compressed_bytes": 685
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_spanish.txt",
+      "bytes": 868,
+      "compressed_bytes": 496
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_approx_turkish.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_any.txt",
+      "bytes": 1226,
+      "compressed_bytes": 652
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_approx_common.txt",
+      "bytes": 1769,
+      "compressed_bytes": 808
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_arabic.txt",
+      "bytes": 816,
+      "compressed_bytes": 464
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_common.txt",
+      "bytes": 1093,
+      "compressed_bytes": 589
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt",
+      "bytes": 830,
+      "compressed_bytes": 479
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_czech.txt",
+      "bytes": 830,
+      "compressed_bytes": 479
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_dutch.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_english.txt",
+      "bytes": 830,
+      "compressed_bytes": 479
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_french.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_german.txt",
+      "bytes": 826,
+      "compressed_bytes": 475
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_greek.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt",
+      "bytes": 817,
+      "compressed_bytes": 464
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_hebrew.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_hungarian.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_italian.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_polish.txt",
+      "bytes": 874,
+      "compressed_bytes": 484
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_portuguese.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_romanian.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_russian.txt",
+      "bytes": 831,
+      "compressed_bytes": 470
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_spanish.txt",
+      "bytes": 832,
+      "compressed_bytes": 471
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_exact_turkish.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_hebrew_common.txt",
+      "bytes": 2845,
+      "compressed_bytes": 1040
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_lang.txt",
+      "bytes": 7889,
+      "compressed_bytes": 2296
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_languages.txt",
+      "bytes": 951,
+      "compressed_bytes": 544
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_any.txt",
+      "bytes": 13059,
+      "compressed_bytes": 3899
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_arabic.txt",
+      "bytes": 2208,
+      "compressed_bytes": 903
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt",
+      "bytes": 2300,
+      "compressed_bytes": 971
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_czech.txt",
+      "bytes": 1561,
+      "compressed_bytes": 745
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_dutch.txt",
+      "bytes": 1867,
+      "compressed_bytes": 845
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_english.txt",
+      "bytes": 3013,
+      "compressed_bytes": 1332
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_french.txt",
+      "bytes": 2778,
+      "compressed_bytes": 1165
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_german.txt",
+      "bytes": 2735,
+      "compressed_bytes": 1053
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_greek.txt",
+      "bytes": 2918,
+      "compressed_bytes": 1129
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt",
+      "bytes": 3041,
+      "compressed_bytes": 1196
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_hebrew.txt",
+      "bytes": 1462,
+      "compressed_bytes": 685
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_hungarian.txt",
+      "bytes": 1887,
+      "compressed_bytes": 860
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_italian.txt",
+      "bytes": 1873,
+      "compressed_bytes": 814
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_polish.txt",
+      "bytes": 4112,
+      "compressed_bytes": 1435
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_portuguese.txt",
+      "bytes": 2598,
+      "compressed_bytes": 1096
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_romanian.txt",
+      "bytes": 1509,
+      "compressed_bytes": 720
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_russian.txt",
+      "bytes": 3042,
+      "compressed_bytes": 1115
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_spanish.txt",
+      "bytes": 2382,
+      "compressed_bytes": 1086
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/gen_rules_turkish.txt",
+      "bytes": 1386,
+      "compressed_bytes": 675
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/lang.txt",
+      "bytes": 819,
+      "compressed_bytes": 461
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_approx_any.txt",
+      "bytes": 830,
+      "compressed_bytes": 475
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_approx_common.txt",
+      "bytes": 3195,
+      "compressed_bytes": 1131
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_approx_french.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_approx_hebrew.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_approx_italian.txt",
+      "bytes": 830,
+      "compressed_bytes": 477
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_approx_portuguese.txt",
+      "bytes": 831,
+      "compressed_bytes": 478
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_approx_spanish.txt",
+      "bytes": 831,
+      "compressed_bytes": 478
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_any.txt",
+      "bytes": 817,
+      "compressed_bytes": 464
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_approx_common.txt",
+      "bytes": 1685,
+      "compressed_bytes": 767
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_common.txt",
+      "bytes": 1109,
+      "compressed_bytes": 635
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_french.txt",
+      "bytes": 815,
+      "compressed_bytes": 465
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_hebrew.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_italian.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_portuguese.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_exact_spanish.txt",
+      "bytes": 812,
+      "compressed_bytes": 463
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_hebrew_common.txt",
+      "bytes": 2187,
+      "compressed_bytes": 908
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_lang.txt",
+      "bytes": 2536,
+      "compressed_bytes": 944
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_languages.txt",
+      "bytes": 849,
+      "compressed_bytes": 486
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_rules_any.txt",
+      "bytes": 4632,
+      "compressed_bytes": 1679
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_rules_french.txt",
+      "bytes": 2224,
+      "compressed_bytes": 949
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_rules_hebrew.txt",
+      "bytes": 1459,
+      "compressed_bytes": 682
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_rules_italian.txt",
+      "bytes": 1848,
+      "compressed_bytes": 807
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_rules_portuguese.txt",
+      "bytes": 2573,
+      "compressed_bytes": 1090
+    },
+    {
+      "path": "org/apache/commons/codec/language/bm/sep_rules_spanish.txt",
+      "bytes": 2480,
+      "compressed_bytes": 1113
+    },
+    {
+      "path": "org/apache/commons/codec/language/dmrules.txt",
+      "bytes": 3745,
+      "compressed_bytes": 1265
+    },
+    {
+      "path": "play-services-base.properties",
+      "bytes": 74,
+      "compressed_bytes": 50
+    },
+    {
+      "path": "play-services-basement.properties",
+      "bytes": 82,
+      "compressed_bytes": 53
+    },
+    {
+      "path": "play-services-location.properties",
+      "bytes": 82,
+      "compressed_bytes": 53
+    },
+    {
+      "path": "play-services-tasks.properties",
+      "bytes": 76,
+      "compressed_bytes": 51
+    },
+    {
+      "path": "AndroidManifest.xml",
+      "bytes": 17848,
+      "compressed_bytes": 4018
+    },
+    {
+      "path": "res/-1.xml",
+      "bytes": 744,
+      "compressed_bytes": 344
+    },
+    {
+      "path": "res/-4.xml",
+      "bytes": 6820,
+      "compressed_bytes": 1093
+    },
+    {
+      "path": "res/-5.xml",
+      "bytes": 352,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/-6.webp",
+      "bytes": 7030,
+      "compressed_bytes": 7030
+    },
+    {
+      "path": "res/-7.xml",
+      "bytes": 668,
+      "compressed_bytes": 356
+    },
+    {
+      "path": "res/-8.xml",
+      "bytes": 1424,
+      "compressed_bytes": 612
+    },
+    {
+      "path": "res/-81.xml",
+      "bytes": 1152,
+      "compressed_bytes": 448
+    },
+    {
+      "path": "res/-B.png",
+      "bytes": 281,
+      "compressed_bytes": 281
+    },
+    {
+      "path": "res/-B.xml",
+      "bytes": 564,
+      "compressed_bytes": 300
+    },
+    {
+      "path": "res/-D.xml",
+      "bytes": 352,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/-N.png",
+      "bytes": 318,
+      "compressed_bytes": 318
+    },
+    {
+      "path": "res/-k.xml",
+      "bytes": 388,
+      "compressed_bytes": 217
+    },
+    {
+      "path": "res/-p.png",
+      "bytes": 982,
+      "compressed_bytes": 982
+    },
+    {
+      "path": "res/-x.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/0C.xml",
+      "bytes": 696,
+      "compressed_bytes": 381
+    },
+    {
+      "path": "res/0K.xml",
+      "bytes": 448,
+      "compressed_bytes": 221
+    },
+    {
+      "path": "res/0M.xml",
+      "bytes": 1064,
+      "compressed_bytes": 339
+    },
+    {
+      "path": "res/0c.9.png",
+      "bytes": 267,
+      "compressed_bytes": 267
+    },
+    {
+      "path": "res/0w.xml",
+      "bytes": 548,
+      "compressed_bytes": 258
+    },
+    {
+      "path": "res/0x.9.png",
+      "bytes": 209,
+      "compressed_bytes": 209
+    },
+    {
+      "path": "res/13.webp",
+      "bytes": 3513,
+      "compressed_bytes": 3513
+    },
+    {
+      "path": "res/1C.9.png",
+      "bytes": 615,
+      "compressed_bytes": 615
+    },
+    {
+      "path": "res/1I.9.png",
+      "bytes": 2305,
+      "compressed_bytes": 2305
+    },
+    {
+      "path": "res/1J.9.png",
+      "bytes": 1731,
+      "compressed_bytes": 1731
+    },
+    {
+      "path": "res/1N.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/1O.png",
+      "bytes": 832,
+      "compressed_bytes": 832
+    },
+    {
+      "path": "res/1O.xml",
+      "bytes": 588,
+      "compressed_bytes": 313
+    },
+    {
+      "path": "res/1R.xml",
+      "bytes": 476,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/1e.9.png",
+      "bytes": 171,
+      "compressed_bytes": 171
+    },
+    {
+      "path": "res/1j.png",
+      "bytes": 134,
+      "compressed_bytes": 134
+    },
+    {
+      "path": "res/1v.xml",
+      "bytes": 1116,
+      "compressed_bytes": 379
+    },
+    {
+      "path": "res/1y.png",
+      "bytes": 665,
+      "compressed_bytes": 665
+    },
+    {
+      "path": "res/21.xml",
+      "bytes": 592,
+      "compressed_bytes": 314
+    },
+    {
+      "path": "res/27.xml",
+      "bytes": 564,
+      "compressed_bytes": 299
+    },
+    {
+      "path": "res/271.xml",
+      "bytes": 336,
+      "compressed_bytes": 174
+    },
+    {
+      "path": "res/2F.xml",
+      "bytes": 724,
+      "compressed_bytes": 285
+    },
+    {
+      "path": "res/2K.9.png",
+      "bytes": 225,
+      "compressed_bytes": 225
+    },
+    {
+      "path": "res/2P.png",
+      "bytes": 262,
+      "compressed_bytes": 262
+    },
+    {
+      "path": "res/2R.xml",
+      "bytes": 1796,
+      "compressed_bytes": 519
+    },
+    {
+      "path": "res/2S.xml",
+      "bytes": 352,
+      "compressed_bytes": 198
+    },
+    {
+      "path": "res/2d.png",
+      "bytes": 145,
+      "compressed_bytes": 145
+    },
+    {
+      "path": "res/2f.xml",
+      "bytes": 1456,
+      "compressed_bytes": 644
+    },
+    {
+      "path": "res/2f1.xml",
+      "bytes": 1916,
+      "compressed_bytes": 667
+    },
+    {
+      "path": "res/2j.xml",
+      "bytes": 2072,
+      "compressed_bytes": 808
+    },
+    {
+      "path": "res/2m.png",
+      "bytes": 201,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/2n.xml",
+      "bytes": 1220,
+      "compressed_bytes": 540
+    },
+    {
+      "path": "res/2w.xml",
+      "bytes": 1136,
+      "compressed_bytes": 504
+    },
+    {
+      "path": "res/2x.xml",
+      "bytes": 652,
+      "compressed_bytes": 364
+    },
+    {
+      "path": "res/31.xml",
+      "bytes": 344,
+      "compressed_bytes": 188
+    },
+    {
+      "path": "res/33.9.png",
+      "bytes": 541,
+      "compressed_bytes": 541
+    },
+    {
+      "path": "res/35.xml",
+      "bytes": 588,
+      "compressed_bytes": 271
+    },
+    {
+      "path": "res/3A.xml",
+      "bytes": 1056,
+      "compressed_bytes": 502
+    },
+    {
+      "path": "res/3J.xml",
+      "bytes": 956,
+      "compressed_bytes": 363
+    },
+    {
+      "path": "res/3O.xml",
+      "bytes": 444,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/3R.xml",
+      "bytes": 528,
+      "compressed_bytes": 304
+    },
+    {
+      "path": "res/3X.png",
+      "bytes": 1369,
+      "compressed_bytes": 1369
+    },
+    {
+      "path": "res/3h.png",
+      "bytes": 1167,
+      "compressed_bytes": 1167
+    },
+    {
+      "path": "res/3h.xml",
+      "bytes": 816,
+      "compressed_bytes": 347
+    },
+    {
+      "path": "res/3u.9.png",
+      "bytes": 258,
+      "compressed_bytes": 258
+    },
+    {
+      "path": "res/3x.png",
+      "bytes": 1611,
+      "compressed_bytes": 1611
+    },
+    {
+      "path": "res/42.9.png",
+      "bytes": 214,
+      "compressed_bytes": 214
+    },
+    {
+      "path": "res/42.png",
+      "bytes": 28755,
+      "compressed_bytes": 28755
+    },
+    {
+      "path": "res/46.xml",
+      "bytes": 780,
+      "compressed_bytes": 381
+    },
+    {
+      "path": "res/47.xml",
+      "bytes": 892,
+      "compressed_bytes": 371
+    },
+    {
+      "path": "res/49.png",
+      "bytes": 595,
+      "compressed_bytes": 595
+    },
+    {
+      "path": "res/4B.xml",
+      "bytes": 452,
+      "compressed_bytes": 265
+    },
+    {
+      "path": "res/4H.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/4I.xml",
+      "bytes": 652,
+      "compressed_bytes": 363
+    },
+    {
+      "path": "res/4P.xml",
+      "bytes": 632,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/4Q.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/4S.xml",
+      "bytes": 1116,
+      "compressed_bytes": 379
+    },
+    {
+      "path": "res/4_.xml",
+      "bytes": 692,
+      "compressed_bytes": 381
+    },
+    {
+      "path": "res/4k.png",
+      "bytes": 201,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/4o.xml",
+      "bytes": 868,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/4u.xml",
+      "bytes": 756,
+      "compressed_bytes": 290
+    },
+    {
+      "path": "res/4x.xml",
+      "bytes": 1180,
+      "compressed_bytes": 418
+    },
+    {
+      "path": "res/4z.xml",
+      "bytes": 876,
+      "compressed_bytes": 417
+    },
+    {
+      "path": "res/51.xml",
+      "bytes": 812,
+      "compressed_bytes": 373
+    },
+    {
+      "path": "res/59.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/5D.9.png",
+      "bytes": 272,
+      "compressed_bytes": 272
+    },
+    {
+      "path": "res/5J.9.png",
+      "bytes": 1032,
+      "compressed_bytes": 1032
+    },
+    {
+      "path": "res/5T.xml",
+      "bytes": 852,
+      "compressed_bytes": 377
+    },
+    {
+      "path": "res/5U.png",
+      "bytes": 396,
+      "compressed_bytes": 396
+    },
+    {
+      "path": "res/5Y.xml",
+      "bytes": 608,
+      "compressed_bytes": 322
+    },
+    {
+      "path": "res/5_.xml",
+      "bytes": 568,
+      "compressed_bytes": 220
+    },
+    {
+      "path": "res/5c.png",
+      "bytes": 138,
+      "compressed_bytes": 138
+    },
+    {
+      "path": "res/5c.webp",
+      "bytes": 10953,
+      "compressed_bytes": 10953
+    },
+    {
+      "path": "res/5l.xml",
+      "bytes": 656,
+      "compressed_bytes": 368
+    },
+    {
+      "path": "res/5z.xml",
+      "bytes": 1128,
+      "compressed_bytes": 395
+    },
+    {
+      "path": "res/61.xml",
+      "bytes": 796,
+      "compressed_bytes": 354
+    },
+    {
+      "path": "res/62.9.png",
+      "bytes": 210,
+      "compressed_bytes": 210
+    },
+    {
+      "path": "res/63.xml",
+      "bytes": 848,
+      "compressed_bytes": 371
+    },
+    {
+      "path": "res/65.9.png",
+      "bytes": 235,
+      "compressed_bytes": 235
+    },
+    {
+      "path": "res/66.xml",
+      "bytes": 956,
+      "compressed_bytes": 421
+    },
+    {
+      "path": "res/68.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/6K.xml",
+      "bytes": 536,
+      "compressed_bytes": 252
+    },
+    {
+      "path": "res/6Q.xml",
+      "bytes": 688,
+      "compressed_bytes": 301
+    },
+    {
+      "path": "res/6b.xml",
+      "bytes": 592,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/6f.xml",
+      "bytes": 2456,
+      "compressed_bytes": 790
+    },
+    {
+      "path": "res/6t.png",
+      "bytes": 227,
+      "compressed_bytes": 227
+    },
+    {
+      "path": "res/6x.xml",
+      "bytes": 436,
+      "compressed_bytes": 258
+    },
+    {
+      "path": "res/79.9.png",
+      "bytes": 694,
+      "compressed_bytes": 694
+    },
+    {
+      "path": "res/7C.9.png",
+      "bytes": 430,
+      "compressed_bytes": 430
+    },
+    {
+      "path": "res/7F.xml",
+      "bytes": 576,
+      "compressed_bytes": 254
+    },
+    {
+      "path": "res/7G.xml",
+      "bytes": 1116,
+      "compressed_bytes": 524
+    },
+    {
+      "path": "res/7H.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/7I.9.png",
+      "bytes": 345,
+      "compressed_bytes": 345
+    },
+    {
+      "path": "res/7N.xml",
+      "bytes": 372,
+      "compressed_bytes": 185
+    },
+    {
+      "path": "res/7R.png",
+      "bytes": 516,
+      "compressed_bytes": 516
+    },
+    {
+      "path": "res/7_.9.png",
+      "bytes": 813,
+      "compressed_bytes": 813
+    },
+    {
+      "path": "res/7b.xml",
+      "bytes": 352,
+      "compressed_bytes": 197
+    },
+    {
+      "path": "res/7e.xml",
+      "bytes": 588,
+      "compressed_bytes": 306
+    },
+    {
+      "path": "res/7i.png",
+      "bytes": 464,
+      "compressed_bytes": 464
+    },
+    {
+      "path": "res/7o.9.png",
+      "bytes": 525,
+      "compressed_bytes": 525
+    },
+    {
+      "path": "res/7s.xml",
+      "bytes": 724,
+      "compressed_bytes": 284
+    },
+    {
+      "path": "res/7s1.xml",
+      "bytes": 556,
+      "compressed_bytes": 295
+    },
+    {
+      "path": "res/80.xml",
+      "bytes": 2688,
+      "compressed_bytes": 841
+    },
+    {
+      "path": "res/8K.xml",
+      "bytes": 832,
+      "compressed_bytes": 379
+    },
+    {
+      "path": "res/8a.xml",
+      "bytes": 464,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/8c.png",
+      "bytes": 426,
+      "compressed_bytes": 426
+    },
+    {
+      "path": "res/8h.9.png",
+      "bytes": 207,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/8h.png",
+      "bytes": 946,
+      "compressed_bytes": 946
+    },
+    {
+      "path": "res/8s.png",
+      "bytes": 2419,
+      "compressed_bytes": 2419
+    },
+    {
+      "path": "res/8s.xml",
+      "bytes": 648,
+      "compressed_bytes": 343
+    },
+    {
+      "path": "res/8y.xml",
+      "bytes": 940,
+      "compressed_bytes": 448
+    },
+    {
+      "path": "res/95.xml",
+      "bytes": 1260,
+      "compressed_bytes": 443
+    },
+    {
+      "path": "res/9N.9.png",
+      "bytes": 187,
+      "compressed_bytes": 187
+    },
+    {
+      "path": "res/9O.xml",
+      "bytes": 1172,
+      "compressed_bytes": 482
+    },
+    {
+      "path": "res/9P.xml",
+      "bytes": 600,
+      "compressed_bytes": 331
+    },
+    {
+      "path": "res/9Q.webp",
+      "bytes": 4815,
+      "compressed_bytes": 4815
+    },
+    {
+      "path": "res/9T.xml",
+      "bytes": 932,
+      "compressed_bytes": 394
+    },
+    {
+      "path": "res/9T1.xml",
+      "bytes": 1656,
+      "compressed_bytes": 428
+    },
+    {
+      "path": "res/9T2.xml",
+      "bytes": 1028,
+      "compressed_bytes": 373
+    },
+    {
+      "path": "res/9V.xml",
+      "bytes": 1560,
+      "compressed_bytes": 645
+    },
+    {
+      "path": "res/9X.9.png",
+      "bytes": 192,
+      "compressed_bytes": 192
+    },
+    {
+      "path": "res/9a.xml",
+      "bytes": 592,
+      "compressed_bytes": 271
+    },
+    {
+      "path": "res/9m.xml",
+      "bytes": 304,
+      "compressed_bytes": 173
+    },
+    {
+      "path": "res/9n.9.png",
+      "bytes": 178,
+      "compressed_bytes": 178
+    },
+    {
+      "path": "res/9p.xml",
+      "bytes": 508,
+      "compressed_bytes": 262
+    },
+    {
+      "path": "res/9z.png",
+      "bytes": 593,
+      "compressed_bytes": 593
+    },
+    {
+      "path": "res/9z.xml",
+      "bytes": 388,
+      "compressed_bytes": 232
+    },
+    {
+      "path": "res/A0.xml",
+      "bytes": 1608,
+      "compressed_bytes": 667
+    },
+    {
+      "path": "res/A1.png",
+      "bytes": 332,
+      "compressed_bytes": 332
+    },
+    {
+      "path": "res/A1.xml",
+      "bytes": 872,
+      "compressed_bytes": 388
+    },
+    {
+      "path": "res/A4.xml",
+      "bytes": 680,
+      "compressed_bytes": 302
+    },
+    {
+      "path": "res/A5.xml",
+      "bytes": 2724,
+      "compressed_bytes": 616
+    },
+    {
+      "path": "res/A6.png",
+      "bytes": 6856,
+      "compressed_bytes": 6856
+    },
+    {
+      "path": "res/AB.xml",
+      "bytes": 1444,
+      "compressed_bytes": 664
+    },
+    {
+      "path": "res/AE.png",
+      "bytes": 645,
+      "compressed_bytes": 645
+    },
+    {
+      "path": "res/Aa.xml",
+      "bytes": 796,
+      "compressed_bytes": 327
+    },
+    {
+      "path": "res/Af.9.png",
+      "bytes": 683,
+      "compressed_bytes": 683
+    },
+    {
+      "path": "res/As.xml",
+      "bytes": 716,
+      "compressed_bytes": 405
+    },
+    {
+      "path": "res/B1.xml",
+      "bytes": 768,
+      "compressed_bytes": 402
+    },
+    {
+      "path": "res/B6.xml",
+      "bytes": 592,
+      "compressed_bytes": 313
+    },
+    {
+      "path": "res/B9.png",
+      "bytes": 653,
+      "compressed_bytes": 653
+    },
+    {
+      "path": "res/BG.9.png",
+      "bytes": 190,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/BJ.xml",
+      "bytes": 640,
+      "compressed_bytes": 339
+    },
+    {
+      "path": "res/BJ1.xml",
+      "bytes": 1128,
+      "compressed_bytes": 392
+    },
+    {
+      "path": "res/BL.9.png",
+      "bytes": 229,
+      "compressed_bytes": 229
+    },
+    {
+      "path": "res/BM.png",
+      "bytes": 159,
+      "compressed_bytes": 159
+    },
+    {
+      "path": "res/BQ.9.png",
+      "bytes": 897,
+      "compressed_bytes": 897
+    },
+    {
+      "path": "res/BT.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/BT1.xml",
+      "bytes": 616,
+      "compressed_bytes": 300
+    },
+    {
+      "path": "res/BW.xml",
+      "bytes": 448,
+      "compressed_bytes": 221
+    },
+    {
+      "path": "res/Bd.xml",
+      "bytes": 388,
+      "compressed_bytes": 218
+    },
+    {
+      "path": "res/Be.xml",
+      "bytes": 2648,
+      "compressed_bytes": 838
+    },
+    {
+      "path": "res/Be1.xml",
+      "bytes": 400,
+      "compressed_bytes": 209
+    },
+    {
+      "path": "res/Bl.xml",
+      "bytes": 588,
+      "compressed_bytes": 261
+    },
+    {
+      "path": "res/Bn.xml",
+      "bytes": 828,
+      "compressed_bytes": 455
+    },
+    {
+      "path": "res/By.xml",
+      "bytes": 608,
+      "compressed_bytes": 339
+    },
+    {
+      "path": "res/By1.xml",
+      "bytes": 524,
+      "compressed_bytes": 257
+    },
+    {
+      "path": "res/Bz.xml",
+      "bytes": 892,
+      "compressed_bytes": 373
+    },
+    {
+      "path": "res/CK.9.png",
+      "bytes": 244,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/CU.ttf",
+      "bytes": 389724,
+      "compressed_bytes": 210672
+    },
+    {
+      "path": "res/CV.png",
+      "bytes": 1711,
+      "compressed_bytes": 1711
+    },
+    {
+      "path": "res/C_.9.png",
+      "bytes": 215,
+      "compressed_bytes": 215
+    },
+    {
+      "path": "res/Ce.xml",
+      "bytes": 1320,
+      "compressed_bytes": 644
+    },
+    {
+      "path": "res/Cg.xml",
+      "bytes": 424,
+      "compressed_bytes": 200
+    },
+    {
+      "path": "res/Cz.png",
+      "bytes": 258,
+      "compressed_bytes": 258
+    },
+    {
+      "path": "res/D1.png",
+      "bytes": 483,
+      "compressed_bytes": 483
+    },
+    {
+      "path": "res/D4.xml",
+      "bytes": 644,
+      "compressed_bytes": 351
+    },
+    {
+      "path": "res/D5.xml",
+      "bytes": 812,
+      "compressed_bytes": 451
+    },
+    {
+      "path": "res/D6.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/D8.png",
+      "bytes": 786,
+      "compressed_bytes": 786
+    },
+    {
+      "path": "res/DG.xml",
+      "bytes": 784,
+      "compressed_bytes": 335
+    },
+    {
+      "path": "res/DL.9.png",
+      "bytes": 178,
+      "compressed_bytes": 178
+    },
+    {
+      "path": "res/DM.xml",
+      "bytes": 868,
+      "compressed_bytes": 439
+    },
+    {
+      "path": "res/DS.xml",
+      "bytes": 400,
+      "compressed_bytes": 216
+    },
+    {
+      "path": "res/DV.xml",
+      "bytes": 460,
+      "compressed_bytes": 213
+    },
+    {
+      "path": "res/DV1.xml",
+      "bytes": 792,
+      "compressed_bytes": 389
+    },
+    {
+      "path": "res/DZ.xml",
+      "bytes": 320,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/D_.9.png",
+      "bytes": 178,
+      "compressed_bytes": 178
+    },
+    {
+      "path": "res/Dc.png",
+      "bytes": 4715,
+      "compressed_bytes": 4715
+    },
+    {
+      "path": "res/Dd.png",
+      "bytes": 281,
+      "compressed_bytes": 281
+    },
+    {
+      "path": "res/Dj.xml",
+      "bytes": 448,
+      "compressed_bytes": 212
+    },
+    {
+      "path": "res/Du.xml",
+      "bytes": 600,
+      "compressed_bytes": 323
+    },
+    {
+      "path": "res/E9.xml",
+      "bytes": 700,
+      "compressed_bytes": 292
+    },
+    {
+      "path": "res/EA.9.png",
+      "bytes": 200,
+      "compressed_bytes": 200
+    },
+    {
+      "path": "res/EP.png",
+      "bytes": 310,
+      "compressed_bytes": 310
+    },
+    {
+      "path": "res/EQ.xml",
+      "bytes": 588,
+      "compressed_bytes": 261
+    },
+    {
+      "path": "res/EZ.xml",
+      "bytes": 396,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/Eg.xml",
+      "bytes": 1716,
+      "compressed_bytes": 551
+    },
+    {
+      "path": "res/Eh.png",
+      "bytes": 410,
+      "compressed_bytes": 410
+    },
+    {
+      "path": "res/Ep.png",
+      "bytes": 428,
+      "compressed_bytes": 428
+    },
+    {
+      "path": "res/F8.xml",
+      "bytes": 1684,
+      "compressed_bytes": 597
+    },
+    {
+      "path": "res/F81.xml",
+      "bytes": 796,
+      "compressed_bytes": 338
+    },
+    {
+      "path": "res/FS.xml",
+      "bytes": 660,
+      "compressed_bytes": 301
+    },
+    {
+      "path": "res/FT.xml",
+      "bytes": 1304,
+      "compressed_bytes": 571
+    },
+    {
+      "path": "res/FW.png",
+      "bytes": 307,
+      "compressed_bytes": 307
+    },
+    {
+      "path": "res/Fb.png",
+      "bytes": 469,
+      "compressed_bytes": 469
+    },
+    {
+      "path": "res/Fq.xml",
+      "bytes": 312,
+      "compressed_bytes": 178
+    },
+    {
+      "path": "res/Fu.xml",
+      "bytes": 1352,
+      "compressed_bytes": 550
+    },
+    {
+      "path": "res/G-.png",
+      "bytes": 246,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/G0.xml",
+      "bytes": 1232,
+      "compressed_bytes": 579
+    },
+    {
+      "path": "res/G1.png",
+      "bytes": 2105,
+      "compressed_bytes": 2105
+    },
+    {
+      "path": "res/G2.9.png",
+      "bytes": 1243,
+      "compressed_bytes": 1243
+    },
+    {
+      "path": "res/G2.xml",
+      "bytes": 1572,
+      "compressed_bytes": 468
+    },
+    {
+      "path": "res/G8.xml",
+      "bytes": 700,
+      "compressed_bytes": 331
+    },
+    {
+      "path": "res/GC.xml",
+      "bytes": 828,
+      "compressed_bytes": 455
+    },
+    {
+      "path": "res/GD.xml",
+      "bytes": 1096,
+      "compressed_bytes": 554
+    },
+    {
+      "path": "res/GF.xml",
+      "bytes": 440,
+      "compressed_bytes": 251
+    },
+    {
+      "path": "res/GK.xml",
+      "bytes": 1172,
+      "compressed_bytes": 460
+    },
+    {
+      "path": "res/GQ.xml",
+      "bytes": 740,
+      "compressed_bytes": 338
+    },
+    {
+      "path": "res/GR.xml",
+      "bytes": 1208,
+      "compressed_bytes": 473
+    },
+    {
+      "path": "res/Gf.png",
+      "bytes": 984,
+      "compressed_bytes": 984
+    },
+    {
+      "path": "res/Gt.9.png",
+      "bytes": 202,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/Gt.xml",
+      "bytes": 1012,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/Gx.png",
+      "bytes": 4001,
+      "compressed_bytes": 4001
+    },
+    {
+      "path": "res/H-.png",
+      "bytes": 203,
+      "compressed_bytes": 203
+    },
+    {
+      "path": "res/H4.xml",
+      "bytes": 616,
+      "compressed_bytes": 296
+    },
+    {
+      "path": "res/H5.png",
+      "bytes": 4005,
+      "compressed_bytes": 4005
+    },
+    {
+      "path": "res/HC.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/HQ.xml",
+      "bytes": 752,
+      "compressed_bytes": 420
+    },
+    {
+      "path": "res/Ha.xml",
+      "bytes": 592,
+      "compressed_bytes": 314
+    },
+    {
+      "path": "res/Hc.png",
+      "bytes": 1057,
+      "compressed_bytes": 1057
+    },
+    {
+      "path": "res/Hd.xml",
+      "bytes": 464,
+      "compressed_bytes": 270
+    },
+    {
+      "path": "res/I3.9.png",
+      "bytes": 1255,
+      "compressed_bytes": 1255
+    },
+    {
+      "path": "res/I3.xml",
+      "bytes": 524,
+      "compressed_bytes": 255
+    },
+    {
+      "path": "res/IA.png",
+      "bytes": 374,
+      "compressed_bytes": 374
+    },
+    {
+      "path": "res/IR.xml",
+      "bytes": 704,
+      "compressed_bytes": 363
+    },
+    {
+      "path": "res/IV.xml",
+      "bytes": 664,
+      "compressed_bytes": 301
+    },
+    {
+      "path": "res/IX.9.png",
+      "bytes": 1544,
+      "compressed_bytes": 1544
+    },
+    {
+      "path": "res/Ib.xml",
+      "bytes": 820,
+      "compressed_bytes": 361
+    },
+    {
+      "path": "res/Id.xml",
+      "bytes": 524,
+      "compressed_bytes": 256
+    },
+    {
+      "path": "res/In.xml",
+      "bytes": 468,
+      "compressed_bytes": 231
+    },
+    {
+      "path": "res/J7.xml",
+      "bytes": 1104,
+      "compressed_bytes": 499
+    },
+    {
+      "path": "res/JC.xml",
+      "bytes": 1216,
+      "compressed_bytes": 442
+    },
+    {
+      "path": "res/JD.xml",
+      "bytes": 1584,
+      "compressed_bytes": 622
+    },
+    {
+      "path": "res/JD1.xml",
+      "bytes": 716,
+      "compressed_bytes": 328
+    },
+    {
+      "path": "res/JF.xml",
+      "bytes": 304,
+      "compressed_bytes": 176
+    },
+    {
+      "path": "res/JJ.9.png",
+      "bytes": 280,
+      "compressed_bytes": 280
+    },
+    {
+      "path": "res/JQ.xml",
+      "bytes": 904,
+      "compressed_bytes": 380
+    },
+    {
+      "path": "res/JT.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/JT1.xml",
+      "bytes": 1072,
+      "compressed_bytes": 391
+    },
+    {
+      "path": "res/J_.xml",
+      "bytes": 352,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/Jl.xml",
+      "bytes": 464,
+      "compressed_bytes": 231
+    },
+    {
+      "path": "res/Jw.xml",
+      "bytes": 2476,
+      "compressed_bytes": 779
+    },
+    {
+      "path": "res/K-.xml",
+      "bytes": 588,
+      "compressed_bytes": 259
+    },
+    {
+      "path": "res/K2.xml",
+      "bytes": 352,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/K5.xml",
+      "bytes": 1764,
+      "compressed_bytes": 686
+    },
+    {
+      "path": "res/K51.xml",
+      "bytes": 1656,
+      "compressed_bytes": 433
+    },
+    {
+      "path": "res/KH.9.png",
+      "bytes": 618,
+      "compressed_bytes": 618
+    },
+    {
+      "path": "res/KM.png",
+      "bytes": 415,
+      "compressed_bytes": 415
+    },
+    {
+      "path": "res/KR.xml",
+      "bytes": 352,
+      "compressed_bytes": 197
+    },
+    {
+      "path": "res/KT.xml",
+      "bytes": 592,
+      "compressed_bytes": 313
+    },
+    {
+      "path": "res/KZ.png",
+      "bytes": 1870,
+      "compressed_bytes": 1870
+    },
+    {
+      "path": "res/K_.9.png",
+      "bytes": 216,
+      "compressed_bytes": 216
+    },
+    {
+      "path": "res/Kd.xml",
+      "bytes": 892,
+      "compressed_bytes": 455
+    },
+    {
+      "path": "res/Ke.xml",
+      "bytes": 2360,
+      "compressed_bytes": 660
+    },
+    {
+      "path": "res/Ki.xml",
+      "bytes": 840,
+      "compressed_bytes": 437
+    },
+    {
+      "path": "res/L-.png",
+      "bytes": 1628,
+      "compressed_bytes": 1628
+    },
+    {
+      "path": "res/L-.xml",
+      "bytes": 2812,
+      "compressed_bytes": 1017
+    },
+    {
+      "path": "res/L6.png",
+      "bytes": 1812,
+      "compressed_bytes": 1812
+    },
+    {
+      "path": "res/LI.xml",
+      "bytes": 2724,
+      "compressed_bytes": 616
+    },
+    {
+      "path": "res/LJ.xml",
+      "bytes": 492,
+      "compressed_bytes": 281
+    },
+    {
+      "path": "res/LT.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/L_.xml",
+      "bytes": 1064,
+      "compressed_bytes": 338
+    },
+    {
+      "path": "res/Lf.xml",
+      "bytes": 1656,
+      "compressed_bytes": 421
+    },
+    {
+      "path": "res/Li.9.png",
+      "bytes": 1779,
+      "compressed_bytes": 1779
+    },
+    {
+      "path": "res/Lr.xml",
+      "bytes": 584,
+      "compressed_bytes": 274
+    },
+    {
+      "path": "res/Lt.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/Lv.xml",
+      "bytes": 132,
+      "compressed_bytes": 75
+    },
+    {
+      "path": "res/M2.xml",
+      "bytes": 612,
+      "compressed_bytes": 304
+    },
+    {
+      "path": "res/M4.xml",
+      "bytes": 712,
+      "compressed_bytes": 366
+    },
+    {
+      "path": "res/M5.xml",
+      "bytes": 684,
+      "compressed_bytes": 364
+    },
+    {
+      "path": "res/M7.xml",
+      "bytes": 1196,
+      "compressed_bytes": 397
+    },
+    {
+      "path": "res/ME.png",
+      "bytes": 141,
+      "compressed_bytes": 141
+    },
+    {
+      "path": "res/MF.9.png",
+      "bytes": 2816,
+      "compressed_bytes": 2816
+    },
+    {
+      "path": "res/MO.webp",
+      "bytes": 1705,
+      "compressed_bytes": 1705
+    },
+    {
+      "path": "res/MO.xml",
+      "bytes": 424,
+      "compressed_bytes": 200
+    },
+    {
+      "path": "res/MQ.png",
+      "bytes": 513,
+      "compressed_bytes": 513
+    },
+    {
+      "path": "res/MU.xml",
+      "bytes": 528,
+      "compressed_bytes": 299
+    },
+    {
+      "path": "res/MZ.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/Ma.9.png",
+      "bytes": 247,
+      "compressed_bytes": 247
+    },
+    {
+      "path": "res/Mp.xml",
+      "bytes": 792,
+      "compressed_bytes": 375
+    },
+    {
+      "path": "res/Mt.xml",
+      "bytes": 1224,
+      "compressed_bytes": 518
+    },
+    {
+      "path": "res/Mv.xml",
+      "bytes": 344,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/My.png",
+      "bytes": 364,
+      "compressed_bytes": 364
+    },
+    {
+      "path": "res/N0.xml",
+      "bytes": 612,
+      "compressed_bytes": 322
+    },
+    {
+      "path": "res/N3.png",
+      "bytes": 1411,
+      "compressed_bytes": 1411
+    },
+    {
+      "path": "res/N3.xml",
+      "bytes": 736,
+      "compressed_bytes": 401
+    },
+    {
+      "path": "res/N4.png",
+      "bytes": 611,
+      "compressed_bytes": 611
+    },
+    {
+      "path": "res/N9.png",
+      "bytes": 1411,
+      "compressed_bytes": 1411
+    },
+    {
+      "path": "res/NA.9.png",
+      "bytes": 2505,
+      "compressed_bytes": 2505
+    },
+    {
+      "path": "res/NF.xml",
+      "bytes": 328,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/NG.png",
+      "bytes": 322,
+      "compressed_bytes": 322
+    },
+    {
+      "path": "res/NM.xml",
+      "bytes": 884,
+      "compressed_bytes": 459
+    },
+    {
+      "path": "res/NM1.xml",
+      "bytes": 484,
+      "compressed_bytes": 225
+    },
+    {
+      "path": "res/NN.xml",
+      "bytes": 956,
+      "compressed_bytes": 412
+    },
+    {
+      "path": "res/NQ.xml",
+      "bytes": 872,
+      "compressed_bytes": 400
+    },
+    {
+      "path": "res/NZ.9.png",
+      "bytes": 182,
+      "compressed_bytes": 182
+    },
+    {
+      "path": "res/Nk.9.png",
+      "bytes": 776,
+      "compressed_bytes": 776
+    },
+    {
+      "path": "res/Nk.png",
+      "bytes": 1044,
+      "compressed_bytes": 1044
+    },
+    {
+      "path": "res/No.9.png",
+      "bytes": 199,
+      "compressed_bytes": 199
+    },
+    {
+      "path": "res/Nt.webp",
+      "bytes": 2239,
+      "compressed_bytes": 2239
+    },
+    {
+      "path": "res/Nu.xml",
+      "bytes": 1728,
+      "compressed_bytes": 703
+    },
+    {
+      "path": "res/Nw.xml",
+      "bytes": 344,
+      "compressed_bytes": 189
+    },
+    {
+      "path": "res/Ny.xml",
+      "bytes": 556,
+      "compressed_bytes": 293
+    },
+    {
+      "path": "res/O6.xml",
+      "bytes": 516,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/OI.xml",
+      "bytes": 708,
+      "compressed_bytes": 367
+    },
+    {
+      "path": "res/OX.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/Ol.xml",
+      "bytes": 1656,
+      "compressed_bytes": 678
+    },
+    {
+      "path": "res/Ox.xml",
+      "bytes": 628,
+      "compressed_bytes": 285
+    },
+    {
+      "path": "res/P6.png",
+      "bytes": 2880,
+      "compressed_bytes": 2880
+    },
+    {
+      "path": "res/PQ.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/PV.xml",
+      "bytes": 908,
+      "compressed_bytes": 461
+    },
+    {
+      "path": "res/PX.xml",
+      "bytes": 724,
+      "compressed_bytes": 379
+    },
+    {
+      "path": "res/Pa.9.png",
+      "bytes": 738,
+      "compressed_bytes": 738
+    },
+    {
+      "path": "res/Pb.png",
+      "bytes": 631,
+      "compressed_bytes": 631
+    },
+    {
+      "path": "res/Pb.xml",
+      "bytes": 584,
+      "compressed_bytes": 273
+    },
+    {
+      "path": "res/Pg.9.png",
+      "bytes": 207,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/Pj.xml",
+      "bytes": 744,
+      "compressed_bytes": 352
+    },
+    {
+      "path": "res/Pk.png",
+      "bytes": 1929,
+      "compressed_bytes": 1929
+    },
+    {
+      "path": "res/Pr.xml",
+      "bytes": 516,
+      "compressed_bytes": 245
+    },
+    {
+      "path": "res/QD.xml",
+      "bytes": 740,
+      "compressed_bytes": 324
+    },
+    {
+      "path": "res/QH.xml",
+      "bytes": 548,
+      "compressed_bytes": 287
+    },
+    {
+      "path": "res/QJ.9.png",
+      "bytes": 189,
+      "compressed_bytes": 189
+    },
+    {
+      "path": "res/QN.xml",
+      "bytes": 588,
+      "compressed_bytes": 309
+    },
+    {
+      "path": "res/QN1.xml",
+      "bytes": 724,
+      "compressed_bytes": 284
+    },
+    {
+      "path": "res/QP.xml",
+      "bytes": 616,
+      "compressed_bytes": 298
+    },
+    {
+      "path": "res/QZ.xml",
+      "bytes": 744,
+      "compressed_bytes": 344
+    },
+    {
+      "path": "res/QZ1.xml",
+      "bytes": 124,
+      "compressed_bytes": 68
+    },
+    {
+      "path": "res/Qd.9.png",
+      "bytes": 776,
+      "compressed_bytes": 776
+    },
+    {
+      "path": "res/Qd.xml",
+      "bytes": 796,
+      "compressed_bytes": 435
+    },
+    {
+      "path": "res/Qp.xml",
+      "bytes": 592,
+      "compressed_bytes": 312
+    },
+    {
+      "path": "res/Qt.xml",
+      "bytes": 980,
+      "compressed_bytes": 514
+    },
+    {
+      "path": "res/Qu.xml",
+      "bytes": 940,
+      "compressed_bytes": 472
+    },
+    {
+      "path": "res/Qy.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/R2.xml",
+      "bytes": 596,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/RD.xml",
+      "bytes": 396,
+      "compressed_bytes": 227
+    },
+    {
+      "path": "res/RG.png",
+      "bytes": 651,
+      "compressed_bytes": 651
+    },
+    {
+      "path": "res/RH.xml",
+      "bytes": 832,
+      "compressed_bytes": 394
+    },
+    {
+      "path": "res/RI.xml",
+      "bytes": 408,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/RL.xml",
+      "bytes": 400,
+      "compressed_bytes": 214
+    },
+    {
+      "path": "res/RM.xml",
+      "bytes": 744,
+      "compressed_bytes": 344
+    },
+    {
+      "path": "res/RQ.xml",
+      "bytes": 396,
+      "compressed_bytes": 224
+    },
+    {
+      "path": "res/RV.png",
+      "bytes": 563,
+      "compressed_bytes": 563
+    },
+    {
+      "path": "res/Ro.xml",
+      "bytes": 1796,
+      "compressed_bytes": 519
+    },
+    {
+      "path": "res/Ro1.xml",
+      "bytes": 1436,
+      "compressed_bytes": 560
+    },
+    {
+      "path": "res/Rt.xml",
+      "bytes": 892,
+      "compressed_bytes": 372
+    },
+    {
+      "path": "res/S6.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/S7.png",
+      "bytes": 66529,
+      "compressed_bytes": 66529
+    },
+    {
+      "path": "res/SG.xml",
+      "bytes": 380,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/SN.xml",
+      "bytes": 1052,
+      "compressed_bytes": 487
+    },
+    {
+      "path": "res/SV.9.png",
+      "bytes": 211,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/Sa.xml",
+      "bytes": 2084,
+      "compressed_bytes": 939
+    },
+    {
+      "path": "res/Sc.xml",
+      "bytes": 1128,
+      "compressed_bytes": 389
+    },
+    {
+      "path": "res/Sd.xml",
+      "bytes": 768,
+      "compressed_bytes": 403
+    },
+    {
+      "path": "res/Sn.webp",
+      "bytes": 3623,
+      "compressed_bytes": 3623
+    },
+    {
+      "path": "res/Sr.xml",
+      "bytes": 1228,
+      "compressed_bytes": 413
+    },
+    {
+      "path": "res/St.png",
+      "bytes": 46151,
+      "compressed_bytes": 46151
+    },
+    {
+      "path": "res/Su.9.png",
+      "bytes": 178,
+      "compressed_bytes": 178
+    },
+    {
+      "path": "res/T0.png",
+      "bytes": 1448,
+      "compressed_bytes": 1448
+    },
+    {
+      "path": "res/T4.xml",
+      "bytes": 1888,
+      "compressed_bytes": 512
+    },
+    {
+      "path": "res/T5.xml",
+      "bytes": 1132,
+      "compressed_bytes": 439
+    },
+    {
+      "path": "res/TH.xml",
+      "bytes": 444,
+      "compressed_bytes": 263
+    },
+    {
+      "path": "res/TJ.xml",
+      "bytes": 1012,
+      "compressed_bytes": 474
+    },
+    {
+      "path": "res/TK.xml",
+      "bytes": 892,
+      "compressed_bytes": 370
+    },
+    {
+      "path": "res/Tf.xml",
+      "bytes": 660,
+      "compressed_bytes": 299
+    },
+    {
+      "path": "res/Th.png",
+      "bytes": 785,
+      "compressed_bytes": 785
+    },
+    {
+      "path": "res/Tj.9.png",
+      "bytes": 327,
+      "compressed_bytes": 327
+    },
+    {
+      "path": "res/Tn.xml",
+      "bytes": 768,
+      "compressed_bytes": 394
+    },
+    {
+      "path": "res/Tr.png",
+      "bytes": 519,
+      "compressed_bytes": 519
+    },
+    {
+      "path": "res/Tr.xml",
+      "bytes": 704,
+      "compressed_bytes": 323
+    },
+    {
+      "path": "res/U-.9.png",
+      "bytes": 223,
+      "compressed_bytes": 223
+    },
+    {
+      "path": "res/U-.xml",
+      "bytes": 716,
+      "compressed_bytes": 399
+    },
+    {
+      "path": "res/U0.xml",
+      "bytes": 120,
+      "compressed_bytes": 66
+    },
+    {
+      "path": "res/U7.xml",
+      "bytes": 2432,
+      "compressed_bytes": 776
+    },
+    {
+      "path": "res/U8.xml",
+      "bytes": 2660,
+      "compressed_bytes": 831
+    },
+    {
+      "path": "res/UE.9.png",
+      "bytes": 222,
+      "compressed_bytes": 222
+    },
+    {
+      "path": "res/UE.xml",
+      "bytes": 796,
+      "compressed_bytes": 330
+    },
+    {
+      "path": "res/UP.xml",
+      "bytes": 956,
+      "compressed_bytes": 403
+    },
+    {
+      "path": "res/UR.png",
+      "bytes": 422,
+      "compressed_bytes": 422
+    },
+    {
+      "path": "res/UX.xml",
+      "bytes": 508,
+      "compressed_bytes": 259
+    },
+    {
+      "path": "res/Uf.xml",
+      "bytes": 2664,
+      "compressed_bytes": 608
+    },
+    {
+      "path": "res/V1.xml",
+      "bytes": 864,
+      "compressed_bytes": 445
+    },
+    {
+      "path": "res/V3.xml",
+      "bytes": 784,
+      "compressed_bytes": 334
+    },
+    {
+      "path": "res/V7.xml",
+      "bytes": 304,
+      "compressed_bytes": 175
+    },
+    {
+      "path": "res/VM.xml",
+      "bytes": 328,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/VN.xml",
+      "bytes": 684,
+      "compressed_bytes": 359
+    },
+    {
+      "path": "res/VT.xml",
+      "bytes": 640,
+      "compressed_bytes": 349
+    },
+    {
+      "path": "res/VW.png",
+      "bytes": 266,
+      "compressed_bytes": 266
+    },
+    {
+      "path": "res/Vi.xml",
+      "bytes": 1436,
+      "compressed_bytes": 559
+    },
+    {
+      "path": "res/Vs.xml",
+      "bytes": 1216,
+      "compressed_bytes": 441
+    },
+    {
+      "path": "res/Vy.png",
+      "bytes": 1483,
+      "compressed_bytes": 1483
+    },
+    {
+      "path": "res/W3.xml",
+      "bytes": 1180,
+      "compressed_bytes": 472
+    },
+    {
+      "path": "res/W4.9.png",
+      "bytes": 217,
+      "compressed_bytes": 217
+    },
+    {
+      "path": "res/WC.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/WG.xml",
+      "bytes": 1436,
+      "compressed_bytes": 558
+    },
+    {
+      "path": "res/WK.xml",
+      "bytes": 712,
+      "compressed_bytes": 374
+    },
+    {
+      "path": "res/WP.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/WU.xml",
+      "bytes": 772,
+      "compressed_bytes": 425
+    },
+    {
+      "path": "res/Wg.xml",
+      "bytes": 592,
+      "compressed_bytes": 271
+    },
+    {
+      "path": "res/Wh.png",
+      "bytes": 171,
+      "compressed_bytes": 171
+    },
+    {
+      "path": "res/Wr.png",
+      "bytes": 335,
+      "compressed_bytes": 335
+    },
+    {
+      "path": "res/Wz.png",
+      "bytes": 196,
+      "compressed_bytes": 196
+    },
+    {
+      "path": "res/X3.9.png",
+      "bytes": 221,
+      "compressed_bytes": 221
+    },
+    {
+      "path": "res/X4.9.png",
+      "bytes": 187,
+      "compressed_bytes": 187
+    },
+    {
+      "path": "res/XD.xml",
+      "bytes": 444,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/XK.xml",
+      "bytes": 516,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/XW.xml",
+      "bytes": 124,
+      "compressed_bytes": 68
+    },
+    {
+      "path": "res/XY.xml",
+      "bytes": 264,
+      "compressed_bytes": 152
+    },
+    {
+      "path": "res/Xd.png",
+      "bytes": 728,
+      "compressed_bytes": 728
+    },
+    {
+      "path": "res/Xe.xml",
+      "bytes": 720,
+      "compressed_bytes": 352
+    },
+    {
+      "path": "res/Xf.xml",
+      "bytes": 648,
+      "compressed_bytes": 334
+    },
+    {
+      "path": "res/Xk.xml",
+      "bytes": 1492,
+      "compressed_bytes": 712
+    },
+    {
+      "path": "res/Xl.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/Xx.xml",
+      "bytes": 516,
+      "compressed_bytes": 245
+    },
+    {
+      "path": "res/Xz.xml",
+      "bytes": 628,
+      "compressed_bytes": 265
+    },
+    {
+      "path": "res/Y7.9.png",
+      "bytes": 212,
+      "compressed_bytes": 212
+    },
+    {
+      "path": "res/YD.png",
+      "bytes": 188,
+      "compressed_bytes": 188
+    },
+    {
+      "path": "res/YG.9.png",
+      "bytes": 203,
+      "compressed_bytes": 203
+    },
+    {
+      "path": "res/YN.xml",
+      "bytes": 592,
+      "compressed_bytes": 312
+    },
+    {
+      "path": "res/YW.xml",
+      "bytes": 372,
+      "compressed_bytes": 185
+    },
+    {
+      "path": "res/YW1.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/Yf.xml",
+      "bytes": 688,
+      "compressed_bytes": 373
+    },
+    {
+      "path": "res/Yi.xml",
+      "bytes": 944,
+      "compressed_bytes": 426
+    },
+    {
+      "path": "res/Yt.9.png",
+      "bytes": 209,
+      "compressed_bytes": 209
+    },
+    {
+      "path": "res/Yw.9.png",
+      "bytes": 186,
+      "compressed_bytes": 186
+    },
+    {
+      "path": "res/Z-.xml",
+      "bytes": 1000,
+      "compressed_bytes": 441
+    },
+    {
+      "path": "res/Z8.png",
+      "bytes": 420,
+      "compressed_bytes": 420
+    },
+    {
+      "path": "res/ZC.xml",
+      "bytes": 592,
+      "compressed_bytes": 312
+    },
+    {
+      "path": "res/ZI.png",
+      "bytes": 681,
+      "compressed_bytes": 681
+    },
+    {
+      "path": "res/ZL.9.png",
+      "bytes": 1086,
+      "compressed_bytes": 1086
+    },
+    {
+      "path": "res/ZL.xml",
+      "bytes": 756,
+      "compressed_bytes": 405
+    },
+    {
+      "path": "res/ZM.xml",
+      "bytes": 1176,
+      "compressed_bytes": 444
+    },
+    {
+      "path": "res/ZN.9.png",
+      "bytes": 229,
+      "compressed_bytes": 229
+    },
+    {
+      "path": "res/ZN.xml",
+      "bytes": 1000,
+      "compressed_bytes": 492
+    },
+    {
+      "path": "res/ZW.xml",
+      "bytes": 2760,
+      "compressed_bytes": 877
+    },
+    {
+      "path": "res/Zd.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/Zg.xml",
+      "bytes": 1028,
+      "compressed_bytes": 380
+    },
+    {
+      "path": "res/Zt.png",
+      "bytes": 19948,
+      "compressed_bytes": 19948
+    },
+    {
+      "path": "res/_G.xml",
+      "bytes": 484,
+      "compressed_bytes": 225
+    },
+    {
+      "path": "res/_I.xml",
+      "bytes": 844,
+      "compressed_bytes": 357
+    },
+    {
+      "path": "res/_M.xml",
+      "bytes": 1072,
+      "compressed_bytes": 398
+    },
+    {
+      "path": "res/_Y.xml",
+      "bytes": 2304,
+      "compressed_bytes": 824
+    },
+    {
+      "path": "res/_o.xml",
+      "bytes": 316,
+      "compressed_bytes": 187
+    },
+    {
+      "path": "res/_p.png",
+      "bytes": 1441,
+      "compressed_bytes": 1441
+    },
+    {
+      "path": "res/_q.png",
+      "bytes": 173,
+      "compressed_bytes": 173
+    },
+    {
+      "path": "res/_w.xml",
+      "bytes": 688,
+      "compressed_bytes": 373
+    },
+    {
+      "path": "res/_y.xml",
+      "bytes": 612,
+      "compressed_bytes": 310
+    },
+    {
+      "path": "res/a1.xml",
+      "bytes": 1588,
+      "compressed_bytes": 637
+    },
+    {
+      "path": "res/a5.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/a7.xml",
+      "bytes": 1888,
+      "compressed_bytes": 510
+    },
+    {
+      "path": "res/aG.xml",
+      "bytes": 532,
+      "compressed_bytes": 287
+    },
+    {
+      "path": "res/aH.jpg",
+      "bytes": 283467,
+      "compressed_bytes": 283467
+    },
+    {
+      "path": "res/aJ.xml",
+      "bytes": 400,
+      "compressed_bytes": 216
+    },
+    {
+      "path": "res/aL.xml",
+      "bytes": 352,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/aM.xml",
+      "bytes": 852,
+      "compressed_bytes": 376
+    },
+    {
+      "path": "res/aT.xml",
+      "bytes": 984,
+      "compressed_bytes": 437
+    },
+    {
+      "path": "res/aU.9.png",
+      "bytes": 448,
+      "compressed_bytes": 448
+    },
+    {
+      "path": "res/aW.xml",
+      "bytes": 124,
+      "compressed_bytes": 68
+    },
+    {
+      "path": "res/aY.xml",
+      "bytes": 464,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/ai.xml",
+      "bytes": 280,
+      "compressed_bytes": 165
+    },
+    {
+      "path": "res/ai1.xml",
+      "bytes": 636,
+      "compressed_bytes": 351
+    },
+    {
+      "path": "res/ar.png",
+      "bytes": 391,
+      "compressed_bytes": 391
+    },
+    {
+      "path": "res/as.png",
+      "bytes": 11380,
+      "compressed_bytes": 11380
+    },
+    {
+      "path": "res/ay.xml",
+      "bytes": 472,
+      "compressed_bytes": 245
+    },
+    {
+      "path": "res/b2.png",
+      "bytes": 422,
+      "compressed_bytes": 422
+    },
+    {
+      "path": "res/b6.png",
+      "bytes": 2160,
+      "compressed_bytes": 2160
+    },
+    {
+      "path": "res/bL.xml",
+      "bytes": 1408,
+      "compressed_bytes": 423
+    },
+    {
+      "path": "res/bN.xml",
+      "bytes": 2024,
+      "compressed_bytes": 784
+    },
+    {
+      "path": "res/bT.xml",
+      "bytes": 880,
+      "compressed_bytes": 416
+    },
+    {
+      "path": "res/bX.9.png",
+      "bytes": 244,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/bX.xml",
+      "bytes": 1356,
+      "compressed_bytes": 664
+    },
+    {
+      "path": "res/bb.xml",
+      "bytes": 1136,
+      "compressed_bytes": 453
+    },
+    {
+      "path": "res/bb1.xml",
+      "bytes": 516,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/bm.xml",
+      "bytes": 740,
+      "compressed_bytes": 325
+    },
+    {
+      "path": "res/bt.xml",
+      "bytes": 840,
+      "compressed_bytes": 431
+    },
+    {
+      "path": "res/c0.xml",
+      "bytes": 400,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/c2.xml",
+      "bytes": 680,
+      "compressed_bytes": 376
+    },
+    {
+      "path": "res/c21.xml",
+      "bytes": 796,
+      "compressed_bytes": 333
+    },
+    {
+      "path": "res/c5.xml",
+      "bytes": 316,
+      "compressed_bytes": 187
+    },
+    {
+      "path": "res/c6.xml",
+      "bytes": 372,
+      "compressed_bytes": 185
+    },
+    {
+      "path": "res/cA.xml",
+      "bytes": 572,
+      "compressed_bytes": 267
+    },
+    {
+      "path": "res/cA1.xml",
+      "bytes": 2004,
+      "compressed_bytes": 552
+    },
+    {
+      "path": "res/cC.xml",
+      "bytes": 680,
+      "compressed_bytes": 296
+    },
+    {
+      "path": "res/cL.xml",
+      "bytes": 640,
+      "compressed_bytes": 361
+    },
+    {
+      "path": "res/cV.xml",
+      "bytes": 440,
+      "compressed_bytes": 262
+    },
+    {
+      "path": "res/cc.xml",
+      "bytes": 744,
+      "compressed_bytes": 344
+    },
+    {
+      "path": "res/cm.xml",
+      "bytes": 920,
+      "compressed_bytes": 471
+    },
+    {
+      "path": "res/color-night-v8/material_timepicker_button_stroke.xml",
+      "bytes": 376,
+      "compressed_bytes": 206
+    },
+    {
+      "path": "res/color-night-v8/material_timepicker_clockface.xml",
+      "bytes": 376,
+      "compressed_bytes": 206
+    },
+    {
+      "path": "res/color-night-v8/material_timepicker_modebutton_tint.xml",
+      "bytes": 340,
+      "compressed_bytes": 180
+    },
+    {
+      "path": "res/color-v23/abc_btn_colored_borderless_text_material.xml",
+      "bytes": 500,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/color-v23/abc_btn_colored_text_material.xml",
+      "bytes": 500,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/color-v23/abc_color_highlight_material.xml",
+      "bytes": 544,
+      "compressed_bytes": 258
+    },
+    {
+      "path": "res/color-v23/abc_tint_btn_checkable.xml",
+      "bytes": 624,
+      "compressed_bytes": 272
+    },
+    {
+      "path": "res/color-v23/abc_tint_default.xml",
+      "bytes": 1120,
+      "compressed_bytes": 369
+    },
+    {
+      "path": "res/color-v23/abc_tint_edittext.xml",
+      "bytes": 668,
+      "compressed_bytes": 282
+    },
+    {
+      "path": "res/color-v23/abc_tint_seek_thumb.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color-v23/abc_tint_spinner.xml",
+      "bytes": 668,
+      "compressed_bytes": 282
+    },
+    {
+      "path": "res/color-v23/abc_tint_switch_track.xml",
+      "bytes": 664,
+      "compressed_bytes": 281
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_dark_default_color_primary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_dark_default_color_secondary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 243
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_dark_highlighted_text.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_dark_hint_foreground.xml",
+      "bytes": 564,
+      "compressed_bytes": 260
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml",
+      "bytes": 500,
+      "compressed_bytes": 240
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_default_color_primary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_default_color_secondary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_highlighted_text.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_hint_foreground.xml",
+      "bytes": 564,
+      "compressed_bytes": 261
+    },
+    {
+      "path": "res/color-v31/m3_dynamic_primary_text_disable_only.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral12.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral17.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral22.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral24.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral4.xml",
+      "bytes": 376,
+      "compressed_bytes": 200
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral6.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral87.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral92.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral94.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral96.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral98.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant12.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant17.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant22.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant24.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant4.xml",
+      "bytes": 376,
+      "compressed_bytes": 200
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant6.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant87.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant92.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant94.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant96.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_neutral_variant98.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_primary98.xml",
+      "bytes": 376,
+      "compressed_bytes": 203
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_secondary98.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color-v31/m3_ref_palette_dynamic_tertiary98.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/abc_background_cache_hint_selector_material_dark.xml",
+      "bytes": 468,
+      "compressed_bytes": 231
+    },
+    {
+      "path": "res/color/abc_background_cache_hint_selector_material_light.xml",
+      "bytes": 468,
+      "compressed_bytes": 231
+    },
+    {
+      "path": "res/color/abc_hint_foreground_material_dark.xml",
+      "bytes": 564,
+      "compressed_bytes": 260
+    },
+    {
+      "path": "res/color/abc_hint_foreground_material_light.xml",
+      "bytes": 564,
+      "compressed_bytes": 260
+    },
+    {
+      "path": "res/color/abc_primary_text_disable_only_material_dark.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/abc_primary_text_disable_only_material_light.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/abc_primary_text_material_dark.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/color/abc_primary_text_material_light.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/color/abc_search_url_text.xml",
+      "bytes": 588,
+      "compressed_bytes": 250
+    },
+    {
+      "path": "res/color/abc_secondary_text_material_dark.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/color/abc_secondary_text_material_light.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/color/common_google_signin_btn_text_dark.xml",
+      "bytes": 712,
+      "compressed_bytes": 280
+    },
+    {
+      "path": "res/color/common_google_signin_btn_text_light.xml",
+      "bytes": 712,
+      "compressed_bytes": 278
+    },
+    {
+      "path": "res/color/common_google_signin_btn_tint.xml",
+      "bytes": 464,
+      "compressed_bytes": 229
+    },
+    {
+      "path": "res/color/design_box_stroke_color.xml",
+      "bytes": 712,
+      "compressed_bytes": 285
+    },
+    {
+      "path": "res/color/design_error.xml",
+      "bytes": 464,
+      "compressed_bytes": 229
+    },
+    {
+      "path": "res/color/design_icon_tint.xml",
+      "bytes": 376,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/color/m3_appbar_overlay_color.xml",
+      "bytes": 376,
+      "compressed_bytes": 206
+    },
+    {
+      "path": "res/color/m3_assist_chip_icon_tint_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/color/m3_assist_chip_stroke_color.xml",
+      "bytes": 872,
+      "compressed_bytes": 332
+    },
+    {
+      "path": "res/color/m3_bottom_sheet_drag_handle_color.xml",
+      "bytes": 340,
+      "compressed_bytes": 180
+    },
+    {
+      "path": "res/color/m3_button_background_color_selector.xml",
+      "bytes": 748,
+      "compressed_bytes": 305
+    },
+    {
+      "path": "res/color/m3_button_foreground_color_selector.xml",
+      "bytes": 768,
+      "compressed_bytes": 307
+    },
+    {
+      "path": "res/color/m3_button_outline_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 249
+    },
+    {
+      "path": "res/color/m3_button_ripple_color.xml",
+      "bytes": 808,
+      "compressed_bytes": 300
+    },
+    {
+      "path": "res/color/m3_button_ripple_color_selector.xml",
+      "bytes": 1936,
+      "compressed_bytes": 442
+    },
+    {
+      "path": "res/color/m3_calendar_item_disabled_text.xml",
+      "bytes": 376,
+      "compressed_bytes": 206
+    },
+    {
+      "path": "res/color/m3_calendar_item_stroke_color.xml",
+      "bytes": 712,
+      "compressed_bytes": 283
+    },
+    {
+      "path": "res/color/m3_card_foreground_color.xml",
+      "bytes": 768,
+      "compressed_bytes": 313
+    },
+    {
+      "path": "res/color/m3_card_ripple_color.xml",
+      "bytes": 1556,
+      "compressed_bytes": 403
+    },
+    {
+      "path": "res/color/m3_card_stroke_color.xml",
+      "bytes": 1224,
+      "compressed_bytes": 407
+    },
+    {
+      "path": "res/color/m3_checkbox_button_icon_tint.xml",
+      "bytes": 964,
+      "compressed_bytes": 340
+    },
+    {
+      "path": "res/color/m3_checkbox_button_tint.xml",
+      "bytes": 1000,
+      "compressed_bytes": 366
+    },
+    {
+      "path": "res/color/m3_chip_assist_text_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/color/m3_chip_background_color.xml",
+      "bytes": 712,
+      "compressed_bytes": 278
+    },
+    {
+      "path": "res/color/m3_chip_ripple_color.xml",
+      "bytes": 1556,
+      "compressed_bytes": 407
+    },
+    {
+      "path": "res/color/m3_chip_stroke_color.xml",
+      "bytes": 872,
+      "compressed_bytes": 333
+    },
+    {
+      "path": "res/color/m3_chip_text_color.xml",
+      "bytes": 624,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/color/m3_dark_default_color_primary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 240
+    },
+    {
+      "path": "res/color/m3_dark_default_color_secondary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 243
+    },
+    {
+      "path": "res/color/m3_dark_highlighted_text.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/m3_dark_hint_foreground.xml",
+      "bytes": 564,
+      "compressed_bytes": 260
+    },
+    {
+      "path": "res/color/m3_dark_primary_text_disable_only.xml",
+      "bytes": 500,
+      "compressed_bytes": 240
+    },
+    {
+      "path": "res/color/m3_default_color_primary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/color/m3_default_color_secondary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/color/m3_efab_ripple_color_selector.xml",
+      "bytes": 808,
+      "compressed_bytes": 302
+    },
+    {
+      "path": "res/color/m3_elevated_chip_background_color.xml",
+      "bytes": 748,
+      "compressed_bytes": 303
+    },
+    {
+      "path": "res/color/m3_fab_efab_background_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 243
+    },
+    {
+      "path": "res/color/m3_fab_efab_foreground_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 243
+    },
+    {
+      "path": "res/color/m3_fab_ripple_color_selector.xml",
+      "bytes": 808,
+      "compressed_bytes": 303
+    },
+    {
+      "path": "res/color/m3_filled_icon_button_container_color_selector.xml",
+      "bytes": 668,
+      "compressed_bytes": 291
+    },
+    {
+      "path": "res/color/m3_floating_toolbar_vibrant_icon_button_container_color_selector.xml",
+      "bytes": 668,
+      "compressed_bytes": 294
+    },
+    {
+      "path": "res/color/m3_floating_toolbar_vibrant_icon_button_text_color_selector.xml",
+      "bytes": 668,
+      "compressed_bytes": 290
+    },
+    {
+      "path": "res/color/m3_highlighted_text.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/m3_hint_foreground.xml",
+      "bytes": 564,
+      "compressed_bytes": 259
+    },
+    {
+      "path": "res/color/m3_icon_button_icon_color_selector.xml",
+      "bytes": 668,
+      "compressed_bytes": 291
+    },
+    {
+      "path": "res/color/m3_navigation_bar_item_with_indicator_icon_tint.xml",
+      "bytes": 1196,
+      "compressed_bytes": 342
+    },
+    {
+      "path": "res/color/m3_navigation_bar_item_with_indicator_label_tint.xml",
+      "bytes": 1196,
+      "compressed_bytes": 337
+    },
+    {
+      "path": "res/color/m3_navigation_bar_ripple_color_selector.xml",
+      "bytes": 1232,
+      "compressed_bytes": 359
+    },
+    {
+      "path": "res/color/m3_navigation_item_background_color.xml",
+      "bytes": 588,
+      "compressed_bytes": 254
+    },
+    {
+      "path": "res/color/m3_navigation_item_icon_tint.xml",
+      "bytes": 1356,
+      "compressed_bytes": 385
+    },
+    {
+      "path": "res/color/m3_navigation_item_ripple_color.xml",
+      "bytes": 1372,
+      "compressed_bytes": 380
+    },
+    {
+      "path": "res/color/m3_navigation_item_text_color.xml",
+      "bytes": 1356,
+      "compressed_bytes": 386
+    },
+    {
+      "path": "res/color/m3_navigation_rail_item_with_indicator_icon_tint.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3_navigation_rail_item_with_indicator_label_tint.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3_navigation_rail_ripple_color_selector.xml",
+      "bytes": 1232,
+      "compressed_bytes": 362
+    },
+    {
+      "path": "res/color/m3_popupmenu_overlay_color.xml",
+      "bytes": 376,
+      "compressed_bytes": 206
+    },
+    {
+      "path": "res/color/m3_primary_text_disable_only.xml",
+      "bytes": 500,
+      "compressed_bytes": 240
+    },
+    {
+      "path": "res/color/m3_radiobutton_button_tint.xml",
+      "bytes": 1576,
+      "compressed_bytes": 402
+    },
+    {
+      "path": "res/color/m3_radiobutton_ripple_tint.xml",
+      "bytes": 1372,
+      "compressed_bytes": 381
+    },
+    {
+      "path": "res/color/m3_selection_control_ripple_color_selector.xml",
+      "bytes": 1372,
+      "compressed_bytes": 376
+    },
+    {
+      "path": "res/color/m3_simple_item_ripple_color.xml",
+      "bytes": 748,
+      "compressed_bytes": 299
+    },
+    {
+      "path": "res/color/m3_slider_active_tick_marks_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 245
+    },
+    {
+      "path": "res/color/m3_slider_active_track_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color/m3_slider_active_track_color_legacy.xml",
+      "bytes": 500,
+      "compressed_bytes": 247
+    },
+    {
+      "path": "res/color/m3_slider_halo_color_legacy.xml",
+      "bytes": 500,
+      "compressed_bytes": 250
+    },
+    {
+      "path": "res/color/m3_slider_inactive_tick_marks_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 245
+    },
+    {
+      "path": "res/color/m3_slider_inactive_track_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color/m3_slider_inactive_track_color_legacy.xml",
+      "bytes": 500,
+      "compressed_bytes": 248
+    },
+    {
+      "path": "res/color/m3_slider_thumb_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/color/m3_slider_thumb_color_legacy.xml",
+      "bytes": 500,
+      "compressed_bytes": 249
+    },
+    {
+      "path": "res/color/m3_standard_toolbar_button_text_color_selector.xml",
+      "bytes": 1460,
+      "compressed_bytes": 415
+    },
+    {
+      "path": "res/color/m3_standard_toolbar_icon_button_container_color_selector.xml",
+      "bytes": 632,
+      "compressed_bytes": 272
+    },
+    {
+      "path": "res/color/m3_standard_toolbar_icon_button_icon_color_selector.xml",
+      "bytes": 1460,
+      "compressed_bytes": 414
+    },
+    {
+      "path": "res/color/m3_standard_toolbar_icon_button_ripple_color_selector.xml",
+      "bytes": 1336,
+      "compressed_bytes": 385
+    },
+    {
+      "path": "res/color/m3_switch_thumb_tint.xml",
+      "bytes": 588,
+      "compressed_bytes": 254
+    },
+    {
+      "path": "res/color/m3_switch_track_tint.xml",
+      "bytes": 624,
+      "compressed_bytes": 274
+    },
+    {
+      "path": "res/color/m3_tabs_icon_color.xml",
+      "bytes": 624,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/color/m3_tabs_icon_color_secondary.xml",
+      "bytes": 624,
+      "compressed_bytes": 273
+    },
+    {
+      "path": "res/color/m3_tabs_ripple_color.xml",
+      "bytes": 1372,
+      "compressed_bytes": 383
+    },
+    {
+      "path": "res/color/m3_tabs_ripple_color_secondary.xml",
+      "bytes": 1372,
+      "compressed_bytes": 374
+    },
+    {
+      "path": "res/color/m3_tabs_text_color.xml",
+      "bytes": 624,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/color/m3_tabs_text_color_secondary.xml",
+      "bytes": 624,
+      "compressed_bytes": 273
+    },
+    {
+      "path": "res/color/m3_text_button_background_color_selector.xml",
+      "bytes": 508,
+      "compressed_bytes": 240
+    },
+    {
+      "path": "res/color/m3_text_button_foreground_color_selector.xml",
+      "bytes": 748,
+      "compressed_bytes": 306
+    },
+    {
+      "path": "res/color/m3_text_button_ripple_color_selector.xml",
+      "bytes": 1936,
+      "compressed_bytes": 447
+    },
+    {
+      "path": "res/color/m3_textfield_filled_background_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/color/m3_textfield_indicator_text_color.xml",
+      "bytes": 872,
+      "compressed_bytes": 341
+    },
+    {
+      "path": "res/color/m3_textfield_input_text_color.xml",
+      "bytes": 748,
+      "compressed_bytes": 303
+    },
+    {
+      "path": "res/color/m3_textfield_label_color.xml",
+      "bytes": 624,
+      "compressed_bytes": 278
+    },
+    {
+      "path": "res/color/m3_textfield_stroke_color.xml",
+      "bytes": 748,
+      "compressed_bytes": 305
+    },
+    {
+      "path": "res/color/m3_timepicker_button_background_color.xml",
+      "bytes": 528,
+      "compressed_bytes": 248
+    },
+    {
+      "path": "res/color/m3_timepicker_button_ripple_color.xml",
+      "bytes": 1536,
+      "compressed_bytes": 396
+    },
+    {
+      "path": "res/color/m3_timepicker_button_text_color.xml",
+      "bytes": 768,
+      "compressed_bytes": 303
+    },
+    {
+      "path": "res/color/m3_timepicker_clock_text_color.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3_timepicker_display_background_color.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3_timepicker_display_ripple_color.xml",
+      "bytes": 1372,
+      "compressed_bytes": 372
+    },
+    {
+      "path": "res/color/m3_timepicker_display_text_color.xml",
+      "bytes": 624,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/color/m3_timepicker_secondary_text_button_ripple_color.xml",
+      "bytes": 808,
+      "compressed_bytes": 301
+    },
+    {
+      "path": "res/color/m3_timepicker_secondary_text_button_text_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 249
+    },
+    {
+      "path": "res/color/m3_timepicker_time_input_stroke_color.xml",
+      "bytes": 464,
+      "compressed_bytes": 229
+    },
+    {
+      "path": "res/color/m3_tonal_button_ripple_color_selector.xml",
+      "bytes": 808,
+      "compressed_bytes": 300
+    },
+    {
+      "path": "res/color/m3_vibrant_toolbar_button_text_color_selector.xml",
+      "bytes": 1460,
+      "compressed_bytes": 414
+    },
+    {
+      "path": "res/color/m3_vibrant_toolbar_icon_button_container_color_selector.xml",
+      "bytes": 632,
+      "compressed_bytes": 272
+    },
+    {
+      "path": "res/color/m3_vibrant_toolbar_icon_button_icon_color_selector.xml",
+      "bytes": 1460,
+      "compressed_bytes": 414
+    },
+    {
+      "path": "res/color/m3_vibrant_toolbar_icon_button_ripple_color_selector.xml",
+      "bytes": 1336,
+      "compressed_bytes": 385
+    },
+    {
+      "path": "res/color/m3expressive_bottom_nav_item_icon_tint.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3expressive_bottom_nav_item_label_tint.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3expressive_bottom_nav_item_ripple_tint.xml",
+      "bytes": 1232,
+      "compressed_bytes": 361
+    },
+    {
+      "path": "res/color/m3expressive_button_outline_color_selector.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3expressive_button_outlined_background_color_selector.xml",
+      "bytes": 768,
+      "compressed_bytes": 305
+    },
+    {
+      "path": "res/color/m3expressive_nav_rail_item_icon_tint.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3expressive_nav_rail_item_label_tint.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/m3expressive_nav_rail_item_ripple_tint.xml",
+      "bytes": 1232,
+      "compressed_bytes": 361
+    },
+    {
+      "path": "res/color/material_cursor_color.xml",
+      "bytes": 340,
+      "compressed_bytes": 179
+    },
+    {
+      "path": "res/color/material_divider_color.xml",
+      "bytes": 376,
+      "compressed_bytes": 206
+    },
+    {
+      "path": "res/color/material_on_background_disabled.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color/material_on_background_emphasis_high_type.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/material_on_background_emphasis_medium.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color/material_on_primary_disabled.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color/material_on_primary_emphasis_high_type.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/material_on_primary_emphasis_medium.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/material_on_surface_disabled.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/material_on_surface_emphasis_high_type.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/material_on_surface_emphasis_medium.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/material_on_surface_stroke.xml",
+      "bytes": 376,
+      "compressed_bytes": 206
+    },
+    {
+      "path": "res/color/material_personalized__highlighted_text.xml",
+      "bytes": 376,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/color/material_personalized__highlighted_text_inverse.xml",
+      "bytes": 376,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/color/material_personalized_color_primary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/color/material_personalized_color_primary_text_inverse.xml",
+      "bytes": 500,
+      "compressed_bytes": 239
+    },
+    {
+      "path": "res/color/material_personalized_color_secondary_text.xml",
+      "bytes": 500,
+      "compressed_bytes": 245
+    },
+    {
+      "path": "res/color/material_personalized_color_secondary_text_inverse.xml",
+      "bytes": 500,
+      "compressed_bytes": 242
+    },
+    {
+      "path": "res/color/material_personalized_hint_foreground.xml",
+      "bytes": 564,
+      "compressed_bytes": 260
+    },
+    {
+      "path": "res/color/material_personalized_hint_foreground_inverse.xml",
+      "bytes": 564,
+      "compressed_bytes": 259
+    },
+    {
+      "path": "res/color/material_personalized_primary_inverse_text_disable_only.xml",
+      "bytes": 500,
+      "compressed_bytes": 239
+    },
+    {
+      "path": "res/color/material_personalized_primary_text_disable_only.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color/material_slider_active_tick_marks_color.xml",
+      "bytes": 520,
+      "compressed_bytes": 254
+    },
+    {
+      "path": "res/color/material_slider_active_track_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 246
+    },
+    {
+      "path": "res/color/material_slider_halo_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 250
+    },
+    {
+      "path": "res/color/material_slider_inactive_tick_marks_color.xml",
+      "bytes": 520,
+      "compressed_bytes": 256
+    },
+    {
+      "path": "res/color/material_slider_inactive_track_color.xml",
+      "bytes": 520,
+      "compressed_bytes": 254
+    },
+    {
+      "path": "res/color/material_slider_thumb_color.xml",
+      "bytes": 500,
+      "compressed_bytes": 248
+    },
+    {
+      "path": "res/color/material_timepicker_button_background.xml",
+      "bytes": 500,
+      "compressed_bytes": 249
+    },
+    {
+      "path": "res/color/material_timepicker_button_stroke.xml",
+      "bytes": 376,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/color/material_timepicker_clock_text_color.xml",
+      "bytes": 464,
+      "compressed_bytes": 227
+    },
+    {
+      "path": "res/color/material_timepicker_clockface.xml",
+      "bytes": 376,
+      "compressed_bytes": 205
+    },
+    {
+      "path": "res/color/material_timepicker_modebutton_tint.xml",
+      "bytes": 376,
+      "compressed_bytes": 204
+    },
+    {
+      "path": "res/color/mtrl_btn_bg_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 247
+    },
+    {
+      "path": "res/color/mtrl_btn_ripple_color.xml",
+      "bytes": 948,
+      "compressed_bytes": 322
+    },
+    {
+      "path": "res/color/mtrl_btn_stroke_color_selector.xml",
+      "bytes": 520,
+      "compressed_bytes": 252
+    },
+    {
+      "path": "res/color/mtrl_btn_text_btn_bg_color_selector.xml",
+      "bytes": 520,
+      "compressed_bytes": 249
+    },
+    {
+      "path": "res/color/mtrl_btn_text_btn_ripple_color.xml",
+      "bytes": 948,
+      "compressed_bytes": 322
+    },
+    {
+      "path": "res/color/mtrl_btn_text_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 248
+    },
+    {
+      "path": "res/color/mtrl_calendar_item_stroke_color.xml",
+      "bytes": 808,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/color/mtrl_calendar_selected_range.xml",
+      "bytes": 376,
+      "compressed_bytes": 205
+    },
+    {
+      "path": "res/color/mtrl_card_view_foreground.xml",
+      "bytes": 788,
+      "compressed_bytes": 309
+    },
+    {
+      "path": "res/color/mtrl_card_view_ripple.xml",
+      "bytes": 768,
+      "compressed_bytes": 313
+    },
+    {
+      "path": "res/color/mtrl_chip_background_color.xml",
+      "bytes": 848,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/color/mtrl_chip_close_icon_tint.xml",
+      "bytes": 1092,
+      "compressed_bytes": 350
+    },
+    {
+      "path": "res/color/mtrl_chip_surface_color.xml",
+      "bytes": 340,
+      "compressed_bytes": 179
+    },
+    {
+      "path": "res/color/mtrl_chip_text_color.xml",
+      "bytes": 520,
+      "compressed_bytes": 256
+    },
+    {
+      "path": "res/color/mtrl_choice_chip_background_color.xml",
+      "bytes": 848,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/color/mtrl_choice_chip_ripple_color.xml",
+      "bytes": 948,
+      "compressed_bytes": 325
+    },
+    {
+      "path": "res/color/mtrl_choice_chip_text_color.xml",
+      "bytes": 808,
+      "compressed_bytes": 309
+    },
+    {
+      "path": "res/color/mtrl_error.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/mtrl_fab_bg_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 247
+    },
+    {
+      "path": "res/color/mtrl_fab_icon_text_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 248
+    },
+    {
+      "path": "res/color/mtrl_fab_ripple_color.xml",
+      "bytes": 948,
+      "compressed_bytes": 323
+    },
+    {
+      "path": "res/color/mtrl_filled_background_color.xml",
+      "bytes": 808,
+      "compressed_bytes": 310
+    },
+    {
+      "path": "res/color/mtrl_filled_icon_tint.xml",
+      "bytes": 644,
+      "compressed_bytes": 287
+    },
+    {
+      "path": "res/color/mtrl_filled_stroke_color.xml",
+      "bytes": 788,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/color/mtrl_indicator_text_color.xml",
+      "bytes": 520,
+      "compressed_bytes": 253
+    },
+    {
+      "path": "res/color/mtrl_navigation_bar_colored_item_tint.xml",
+      "bytes": 520,
+      "compressed_bytes": 247
+    },
+    {
+      "path": "res/color/mtrl_navigation_bar_colored_ripple_color.xml",
+      "bytes": 948,
+      "compressed_bytes": 332
+    },
+    {
+      "path": "res/color/mtrl_navigation_bar_item_tint.xml",
+      "bytes": 520,
+      "compressed_bytes": 250
+    },
+    {
+      "path": "res/color/mtrl_navigation_bar_ripple_color.xml",
+      "bytes": 1672,
+      "compressed_bytes": 419
+    },
+    {
+      "path": "res/color/mtrl_navigation_item_background_color.xml",
+      "bytes": 644,
+      "compressed_bytes": 276
+    },
+    {
+      "path": "res/color/mtrl_navigation_item_icon_tint.xml",
+      "bytes": 624,
+      "compressed_bytes": 279
+    },
+    {
+      "path": "res/color/mtrl_navigation_item_text_color.xml",
+      "bytes": 624,
+      "compressed_bytes": 279
+    },
+    {
+      "path": "res/color/mtrl_on_primary_text_btn_text_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 243
+    },
+    {
+      "path": "res/color/mtrl_on_surface_ripple_color.xml",
+      "bytes": 808,
+      "compressed_bytes": 303
+    },
+    {
+      "path": "res/color/mtrl_outlined_icon_tint.xml",
+      "bytes": 644,
+      "compressed_bytes": 287
+    },
+    {
+      "path": "res/color/mtrl_outlined_stroke_color.xml",
+      "bytes": 788,
+      "compressed_bytes": 321
+    },
+    {
+      "path": "res/color/mtrl_popupmenu_overlay_color.xml",
+      "bytes": 376,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/color/mtrl_switch_thumb_icon_tint.xml",
+      "bytes": 1236,
+      "compressed_bytes": 375
+    },
+    {
+      "path": "res/color/mtrl_switch_thumb_tint.xml",
+      "bytes": 1028,
+      "compressed_bytes": 336
+    },
+    {
+      "path": "res/color/mtrl_switch_track_decoration_tint.xml",
+      "bytes": 624,
+      "compressed_bytes": 277
+    },
+    {
+      "path": "res/color/mtrl_switch_track_tint.xml",
+      "bytes": 1236,
+      "compressed_bytes": 371
+    },
+    {
+      "path": "res/color/mtrl_tabs_colored_ripple_color.xml",
+      "bytes": 948,
+      "compressed_bytes": 332
+    },
+    {
+      "path": "res/color/mtrl_tabs_icon_color_selector.xml",
+      "bytes": 500,
+      "compressed_bytes": 243
+    },
+    {
+      "path": "res/color/mtrl_tabs_icon_color_selector_colored.xml",
+      "bytes": 500,
+      "compressed_bytes": 241
+    },
+    {
+      "path": "res/color/mtrl_tabs_legacy_text_color_selector.xml",
+      "bytes": 464,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/color/mtrl_tabs_ripple_color.xml",
+      "bytes": 1672,
+      "compressed_bytes": 419
+    },
+    {
+      "path": "res/color/mtrl_text_btn_text_color_selector.xml",
+      "bytes": 888,
+      "compressed_bytes": 323
+    },
+    {
+      "path": "res/color/switch_thumb_material_dark.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/color/switch_thumb_material_light.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/cq.png",
+      "bytes": 502,
+      "compressed_bytes": 502
+    },
+    {
+      "path": "res/cr.xml",
+      "bytes": 364,
+      "compressed_bytes": 201
+    },
+    {
+      "path": "res/cs.xml",
+      "bytes": 616,
+      "compressed_bytes": 299
+    },
+    {
+      "path": "res/cv.xml",
+      "bytes": 2892,
+      "compressed_bytes": 943
+    },
+    {
+      "path": "res/cy.xml",
+      "bytes": 624,
+      "compressed_bytes": 318
+    },
+    {
+      "path": "res/d2.webp",
+      "bytes": 1036,
+      "compressed_bytes": 1036
+    },
+    {
+      "path": "res/d2.xml",
+      "bytes": 352,
+      "compressed_bytes": 208
+    },
+    {
+      "path": "res/d3.png",
+      "bytes": 432,
+      "compressed_bytes": 432
+    },
+    {
+      "path": "res/d5.9.png",
+      "bytes": 851,
+      "compressed_bytes": 851
+    },
+    {
+      "path": "res/dB.9.png",
+      "bytes": 500,
+      "compressed_bytes": 500
+    },
+    {
+      "path": "res/dC.xml",
+      "bytes": 592,
+      "compressed_bytes": 312
+    },
+    {
+      "path": "res/dO.xml",
+      "bytes": 3472,
+      "compressed_bytes": 1103
+    },
+    {
+      "path": "res/dS.xml",
+      "bytes": 2724,
+      "compressed_bytes": 615
+    },
+    {
+      "path": "res/dW.png",
+      "bytes": 267,
+      "compressed_bytes": 267
+    },
+    {
+      "path": "res/dY.png",
+      "bytes": 404,
+      "compressed_bytes": 404
+    },
+    {
+      "path": "res/df.xml",
+      "bytes": 532,
+      "compressed_bytes": 253
+    },
+    {
+      "path": "res/dj.xml",
+      "bytes": 600,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/dw.xml",
+      "bytes": 1144,
+      "compressed_bytes": 624
+    },
+    {
+      "path": "res/e0.xml",
+      "bytes": 636,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/e2.png",
+      "bytes": 566,
+      "compressed_bytes": 566
+    },
+    {
+      "path": "res/eA.xml",
+      "bytes": 1868,
+      "compressed_bytes": 712
+    },
+    {
+      "path": "res/eG.xml",
+      "bytes": 1228,
+      "compressed_bytes": 539
+    },
+    {
+      "path": "res/eH.xml",
+      "bytes": 716,
+      "compressed_bytes": 385
+    },
+    {
+      "path": "res/eH1.xml",
+      "bytes": 820,
+      "compressed_bytes": 362
+    },
+    {
+      "path": "res/eK.xml",
+      "bytes": 440,
+      "compressed_bytes": 253
+    },
+    {
+      "path": "res/eK1.xml",
+      "bytes": 592,
+      "compressed_bytes": 313
+    },
+    {
+      "path": "res/eM.xml",
+      "bytes": 516,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/eR.png",
+      "bytes": 356,
+      "compressed_bytes": 356
+    },
+    {
+      "path": "res/eT.9.png",
+      "bytes": 318,
+      "compressed_bytes": 318
+    },
+    {
+      "path": "res/eW.xml",
+      "bytes": 688,
+      "compressed_bytes": 394
+    },
+    {
+      "path": "res/eZ.xml",
+      "bytes": 556,
+      "compressed_bytes": 294
+    },
+    {
+      "path": "res/ec.xml",
+      "bytes": 1140,
+      "compressed_bytes": 497
+    },
+    {
+      "path": "res/ej.9.png",
+      "bytes": 167,
+      "compressed_bytes": 167
+    },
+    {
+      "path": "res/ej.xml",
+      "bytes": 524,
+      "compressed_bytes": 255
+    },
+    {
+      "path": "res/ek.xml",
+      "bytes": 14652,
+      "compressed_bytes": 5655
+    },
+    {
+      "path": "res/ev.9.png",
+      "bytes": 228,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/ew.png",
+      "bytes": 584,
+      "compressed_bytes": 584
+    },
+    {
+      "path": "res/f6.xml",
+      "bytes": 528,
+      "compressed_bytes": 299
+    },
+    {
+      "path": "res/f9.png",
+      "bytes": 562,
+      "compressed_bytes": 562
+    },
+    {
+      "path": "res/fF.xml",
+      "bytes": 588,
+      "compressed_bytes": 313
+    },
+    {
+      "path": "res/fM.9.png",
+      "bytes": 825,
+      "compressed_bytes": 825
+    },
+    {
+      "path": "res/fT.xml",
+      "bytes": 632,
+      "compressed_bytes": 332
+    },
+    {
+      "path": "res/fW.xml",
+      "bytes": 672,
+      "compressed_bytes": 367
+    },
+    {
+      "path": "res/f_.xml",
+      "bytes": 612,
+      "compressed_bytes": 323
+    },
+    {
+      "path": "res/fd.xml",
+      "bytes": 768,
+      "compressed_bytes": 354
+    },
+    {
+      "path": "res/fg.xml",
+      "bytes": 816,
+      "compressed_bytes": 345
+    },
+    {
+      "path": "res/fp.xml",
+      "bytes": 400,
+      "compressed_bytes": 214
+    },
+    {
+      "path": "res/fq.webp",
+      "bytes": 2480,
+      "compressed_bytes": 2480
+    },
+    {
+      "path": "res/fu.png",
+      "bytes": 928,
+      "compressed_bytes": 928
+    },
+    {
+      "path": "res/fu.xml",
+      "bytes": 1696,
+      "compressed_bytes": 594
+    },
+    {
+      "path": "res/g-.png",
+      "bytes": 585,
+      "compressed_bytes": 585
+    },
+    {
+      "path": "res/g3.png",
+      "bytes": 334,
+      "compressed_bytes": 334
+    },
+    {
+      "path": "res/g3.xml",
+      "bytes": 304,
+      "compressed_bytes": 176
+    },
+    {
+      "path": "res/g31.png",
+      "bytes": 214,
+      "compressed_bytes": 214
+    },
+    {
+      "path": "res/g4.png",
+      "bytes": 68,
+      "compressed_bytes": 68
+    },
+    {
+      "path": "res/g9.xml",
+      "bytes": 352,
+      "compressed_bytes": 197
+    },
+    {
+      "path": "res/gC.xml",
+      "bytes": 644,
+      "compressed_bytes": 351
+    },
+    {
+      "path": "res/gC1.xml",
+      "bytes": 820,
+      "compressed_bytes": 358
+    },
+    {
+      "path": "res/gD.xml",
+      "bytes": 428,
+      "compressed_bytes": 243
+    },
+    {
+      "path": "res/gG.xml",
+      "bytes": 1176,
+      "compressed_bytes": 523
+    },
+    {
+      "path": "res/gK.9.png",
+      "bytes": 215,
+      "compressed_bytes": 215
+    },
+    {
+      "path": "res/gR.xml",
+      "bytes": 388,
+      "compressed_bytes": 217
+    },
+    {
+      "path": "res/gV.png",
+      "bytes": 4791,
+      "compressed_bytes": 4791
+    },
+    {
+      "path": "res/gZ.9.png",
+      "bytes": 524,
+      "compressed_bytes": 524
+    },
+    {
+      "path": "res/gf.xml",
+      "bytes": 352,
+      "compressed_bytes": 200
+    },
+    {
+      "path": "res/gj.9.png",
+      "bytes": 237,
+      "compressed_bytes": 237
+    },
+    {
+      "path": "res/gk.png",
+      "bytes": 1814,
+      "compressed_bytes": 1814
+    },
+    {
+      "path": "res/gn.png",
+      "bytes": 668,
+      "compressed_bytes": 668
+    },
+    {
+      "path": "res/gt.9.png",
+      "bytes": 205,
+      "compressed_bytes": 205
+    },
+    {
+      "path": "res/h4.xml",
+      "bytes": 2124,
+      "compressed_bytes": 640
+    },
+    {
+      "path": "res/h7.9.png",
+      "bytes": 1096,
+      "compressed_bytes": 1096
+    },
+    {
+      "path": "res/hJ.xml",
+      "bytes": 264,
+      "compressed_bytes": 154
+    },
+    {
+      "path": "res/hP.9.png",
+      "bytes": 808,
+      "compressed_bytes": 808
+    },
+    {
+      "path": "res/hP.xml",
+      "bytes": 864,
+      "compressed_bytes": 445
+    },
+    {
+      "path": "res/hP1.xml",
+      "bytes": 1584,
+      "compressed_bytes": 613
+    },
+    {
+      "path": "res/hZ.9.png",
+      "bytes": 167,
+      "compressed_bytes": 167
+    },
+    {
+      "path": "res/hb.xml",
+      "bytes": 744,
+      "compressed_bytes": 420
+    },
+    {
+      "path": "res/hc.xml",
+      "bytes": 588,
+      "compressed_bytes": 318
+    },
+    {
+      "path": "res/hh.9.png",
+      "bytes": 212,
+      "compressed_bytes": 212
+    },
+    {
+      "path": "res/hn.png",
+      "bytes": 251,
+      "compressed_bytes": 251
+    },
+    {
+      "path": "res/hq.xml",
+      "bytes": 612,
+      "compressed_bytes": 333
+    },
+    {
+      "path": "res/hs.xml",
+      "bytes": 388,
+      "compressed_bytes": 218
+    },
+    {
+      "path": "res/hu.xml",
+      "bytes": 728,
+      "compressed_bytes": 368
+    },
+    {
+      "path": "res/hv.xml",
+      "bytes": 900,
+      "compressed_bytes": 410
+    },
+    {
+      "path": "res/hy.xml",
+      "bytes": 740,
+      "compressed_bytes": 317
+    },
+    {
+      "path": "res/i-.xml",
+      "bytes": 616,
+      "compressed_bytes": 325
+    },
+    {
+      "path": "res/i6.9.png",
+      "bytes": 186,
+      "compressed_bytes": 186
+    },
+    {
+      "path": "res/iE.webp",
+      "bytes": 7788,
+      "compressed_bytes": 7788
+    },
+    {
+      "path": "res/iI.xml",
+      "bytes": 372,
+      "compressed_bytes": 184
+    },
+    {
+      "path": "res/iO.png",
+      "bytes": 228,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/iQ.png",
+      "bytes": 489,
+      "compressed_bytes": 489
+    },
+    {
+      "path": "res/iR.9.png",
+      "bytes": 484,
+      "compressed_bytes": 484
+    },
+    {
+      "path": "res/iW.png",
+      "bytes": 808,
+      "compressed_bytes": 808
+    },
+    {
+      "path": "res/iZ.xml",
+      "bytes": 3444,
+      "compressed_bytes": 1135
+    },
+    {
+      "path": "res/iZ1.xml",
+      "bytes": 808,
+      "compressed_bytes": 405
+    },
+    {
+      "path": "res/iZ2.xml",
+      "bytes": 312,
+      "compressed_bytes": 180
+    },
+    {
+      "path": "res/ii.png",
+      "bytes": 100,
+      "compressed_bytes": 100
+    },
+    {
+      "path": "res/io.9.png",
+      "bytes": 1526,
+      "compressed_bytes": 1526
+    },
+    {
+      "path": "res/io.xml",
+      "bytes": 344,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/j3.xml",
+      "bytes": 1100,
+      "compressed_bytes": 352
+    },
+    {
+      "path": "res/j4.png",
+      "bytes": 785,
+      "compressed_bytes": 785
+    },
+    {
+      "path": "res/jS.9.png",
+      "bytes": 236,
+      "compressed_bytes": 236
+    },
+    {
+      "path": "res/jS1.9.png",
+      "bytes": 167,
+      "compressed_bytes": 167
+    },
+    {
+      "path": "res/jW.png",
+      "bytes": 753,
+      "compressed_bytes": 753
+    },
+    {
+      "path": "res/j_.webp",
+      "bytes": 5189,
+      "compressed_bytes": 5189
+    },
+    {
+      "path": "res/je.9.png",
+      "bytes": 212,
+      "compressed_bytes": 212
+    },
+    {
+      "path": "res/k0.xml",
+      "bytes": 2356,
+      "compressed_bytes": 743
+    },
+    {
+      "path": "res/k1.xml",
+      "bytes": 352,
+      "compressed_bytes": 198
+    },
+    {
+      "path": "res/k8.xml",
+      "bytes": 1560,
+      "compressed_bytes": 652
+    },
+    {
+      "path": "res/k9.xml",
+      "bytes": 724,
+      "compressed_bytes": 284
+    },
+    {
+      "path": "res/kE.png",
+      "bytes": 982,
+      "compressed_bytes": 982
+    },
+    {
+      "path": "res/kJ.9.png",
+      "bytes": 208,
+      "compressed_bytes": 208
+    },
+    {
+      "path": "res/kN.xml",
+      "bytes": 484,
+      "compressed_bytes": 224
+    },
+    {
+      "path": "res/kO.xml",
+      "bytes": 352,
+      "compressed_bytes": 198
+    },
+    {
+      "path": "res/k_.xml",
+      "bytes": 508,
+      "compressed_bytes": 258
+    },
+    {
+      "path": "res/kc.png",
+      "bytes": 167,
+      "compressed_bytes": 167
+    },
+    {
+      "path": "res/kg.xml",
+      "bytes": 852,
+      "compressed_bytes": 437
+    },
+    {
+      "path": "res/kh.xml",
+      "bytes": 480,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/kj.xml",
+      "bytes": 464,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/kj1.xml",
+      "bytes": 2520,
+      "compressed_bytes": 731
+    },
+    {
+      "path": "res/kn.xml",
+      "bytes": 816,
+      "compressed_bytes": 341
+    },
+    {
+      "path": "res/kp.png",
+      "bytes": 224,
+      "compressed_bytes": 224
+    },
+    {
+      "path": "res/l2.png",
+      "bytes": 18478,
+      "compressed_bytes": 18478
+    },
+    {
+      "path": "res/lE.xml",
+      "bytes": 728,
+      "compressed_bytes": 328
+    },
+    {
+      "path": "res/lN.xml",
+      "bytes": 320,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/lP.9.png",
+      "bytes": 194,
+      "compressed_bytes": 194
+    },
+    {
+      "path": "res/lR.xml",
+      "bytes": 440,
+      "compressed_bytes": 261
+    },
+    {
+      "path": "res/lR1.xml",
+      "bytes": 396,
+      "compressed_bytes": 224
+    },
+    {
+      "path": "res/lZ.png",
+      "bytes": 1251,
+      "compressed_bytes": 1251
+    },
+    {
+      "path": "res/lv.xml",
+      "bytes": 800,
+      "compressed_bytes": 444
+    },
+    {
+      "path": "res/ly.png",
+      "bytes": 272,
+      "compressed_bytes": 272
+    },
+    {
+      "path": "res/m0.png",
+      "bytes": 267,
+      "compressed_bytes": 267
+    },
+    {
+      "path": "res/m3.xml",
+      "bytes": 1000,
+      "compressed_bytes": 302
+    },
+    {
+      "path": "res/mA.xml",
+      "bytes": 1208,
+      "compressed_bytes": 486
+    },
+    {
+      "path": "res/mD.png",
+      "bytes": 1015,
+      "compressed_bytes": 1015
+    },
+    {
+      "path": "res/mk.xml",
+      "bytes": 768,
+      "compressed_bytes": 406
+    },
+    {
+      "path": "res/mm.9.png",
+      "bytes": 345,
+      "compressed_bytes": 345
+    },
+    {
+      "path": "res/mp.png",
+      "bytes": 138,
+      "compressed_bytes": 138
+    },
+    {
+      "path": "res/mx.xml",
+      "bytes": 656,
+      "compressed_bytes": 306
+    },
+    {
+      "path": "res/n0.xml",
+      "bytes": 492,
+      "compressed_bytes": 280
+    },
+    {
+      "path": "res/nC.9.png",
+      "bytes": 465,
+      "compressed_bytes": 465
+    },
+    {
+      "path": "res/nI.9.png",
+      "bytes": 207,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/nL.xml",
+      "bytes": 436,
+      "compressed_bytes": 247
+    },
+    {
+      "path": "res/nP.xml",
+      "bytes": 1504,
+      "compressed_bytes": 624
+    },
+    {
+      "path": "res/nT.xml",
+      "bytes": 1160,
+      "compressed_bytes": 407
+    },
+    {
+      "path": "res/nX.xml",
+      "bytes": 1116,
+      "compressed_bytes": 378
+    },
+    {
+      "path": "res/nf.png",
+      "bytes": 1208,
+      "compressed_bytes": 1208
+    },
+    {
+      "path": "res/nl.xml",
+      "bytes": 1632,
+      "compressed_bytes": 538
+    },
+    {
+      "path": "res/nm.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/no.xml",
+      "bytes": 632,
+      "compressed_bytes": 353
+    },
+    {
+      "path": "res/nu.xml",
+      "bytes": 528,
+      "compressed_bytes": 300
+    },
+    {
+      "path": "res/nz.xml",
+      "bytes": 532,
+      "compressed_bytes": 253
+    },
+    {
+      "path": "res/o4.xml",
+      "bytes": 344,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/o9.9.png",
+      "bytes": 260,
+      "compressed_bytes": 260
+    },
+    {
+      "path": "res/oO.9.png",
+      "bytes": 610,
+      "compressed_bytes": 610
+    },
+    {
+      "path": "res/oP.xml",
+      "bytes": 816,
+      "compressed_bytes": 342
+    },
+    {
+      "path": "res/oR.xml",
+      "bytes": 912,
+      "compressed_bytes": 377
+    },
+    {
+      "path": "res/oY.xml",
+      "bytes": 1548,
+      "compressed_bytes": 629
+    },
+    {
+      "path": "res/o_.9.png",
+      "bytes": 252,
+      "compressed_bytes": 252
+    },
+    {
+      "path": "res/o_.png",
+      "bytes": 651,
+      "compressed_bytes": 651
+    },
+    {
+      "path": "res/oa.xml",
+      "bytes": 744,
+      "compressed_bytes": 344
+    },
+    {
+      "path": "res/ob.png",
+      "bytes": 5389,
+      "compressed_bytes": 5389
+    },
+    {
+      "path": "res/op.9.png",
+      "bytes": 286,
+      "compressed_bytes": 286
+    },
+    {
+      "path": "res/ot.xml",
+      "bytes": 604,
+      "compressed_bytes": 318
+    },
+    {
+      "path": "res/p0.xml",
+      "bytes": 1804,
+      "compressed_bytes": 683
+    },
+    {
+      "path": "res/p5.xml",
+      "bytes": 396,
+      "compressed_bytes": 225
+    },
+    {
+      "path": "res/p7.xml",
+      "bytes": 548,
+      "compressed_bytes": 257
+    },
+    {
+      "path": "res/pF.xml",
+      "bytes": 752,
+      "compressed_bytes": 376
+    },
+    {
+      "path": "res/pI.xml",
+      "bytes": 548,
+      "compressed_bytes": 256
+    },
+    {
+      "path": "res/pT.xml",
+      "bytes": 424,
+      "compressed_bytes": 180
+    },
+    {
+      "path": "res/pU.xml",
+      "bytes": 364,
+      "compressed_bytes": 218
+    },
+    {
+      "path": "res/pV.png",
+      "bytes": 207,
+      "compressed_bytes": 207
+    },
+    {
+      "path": "res/pY.png",
+      "bytes": 107,
+      "compressed_bytes": 107
+    },
+    {
+      "path": "res/pd.xml",
+      "bytes": 400,
+      "compressed_bytes": 233
+    },
+    {
+      "path": "res/pk.png",
+      "bytes": 275,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/pn.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/ps.9.png",
+      "bytes": 178,
+      "compressed_bytes": 178
+    },
+    {
+      "path": "res/pu.png",
+      "bytes": 909,
+      "compressed_bytes": 909
+    },
+    {
+      "path": "res/pw.xml",
+      "bytes": 1136,
+      "compressed_bytes": 504
+    },
+    {
+      "path": "res/py.9.png",
+      "bytes": 217,
+      "compressed_bytes": 217
+    },
+    {
+      "path": "res/q6.xml",
+      "bytes": 1128,
+      "compressed_bytes": 396
+    },
+    {
+      "path": "res/qA.png",
+      "bytes": 973,
+      "compressed_bytes": 973
+    },
+    {
+      "path": "res/qA.xml",
+      "bytes": 452,
+      "compressed_bytes": 265
+    },
+    {
+      "path": "res/qD.9.png",
+      "bytes": 2834,
+      "compressed_bytes": 2834
+    },
+    {
+      "path": "res/q_.xml",
+      "bytes": 464,
+      "compressed_bytes": 244
+    },
+    {
+      "path": "res/qp.png",
+      "bytes": 197,
+      "compressed_bytes": 197
+    },
+    {
+      "path": "res/qs.webp",
+      "bytes": 2368,
+      "compressed_bytes": 2368
+    },
+    {
+      "path": "res/qx.xml",
+      "bytes": 2780,
+      "compressed_bytes": 742
+    },
+    {
+      "path": "res/qz.xml",
+      "bytes": 1656,
+      "compressed_bytes": 431
+    },
+    {
+      "path": "res/r0.xml",
+      "bytes": 284,
+      "compressed_bytes": 168
+    },
+    {
+      "path": "res/rF.xml",
+      "bytes": 1096,
+      "compressed_bytes": 275
+    },
+    {
+      "path": "res/rI.xml",
+      "bytes": 1116,
+      "compressed_bytes": 380
+    },
+    {
+      "path": "res/rI1.xml",
+      "bytes": 616,
+      "compressed_bytes": 299
+    },
+    {
+      "path": "res/rJ.xml",
+      "bytes": 988,
+      "compressed_bytes": 419
+    },
+    {
+      "path": "res/rJ1.xml",
+      "bytes": 648,
+      "compressed_bytes": 334
+    },
+    {
+      "path": "res/rW.xml",
+      "bytes": 688,
+      "compressed_bytes": 304
+    },
+    {
+      "path": "res/rY.xml",
+      "bytes": 548,
+      "compressed_bytes": 296
+    },
+    {
+      "path": "res/rb.xml",
+      "bytes": 352,
+      "compressed_bytes": 197
+    },
+    {
+      "path": "res/rd.xml",
+      "bytes": 660,
+      "compressed_bytes": 301
+    },
+    {
+      "path": "res/rj.9.png",
+      "bytes": 1098,
+      "compressed_bytes": 1098
+    },
+    {
+      "path": "res/rp.xml",
+      "bytes": 604,
+      "compressed_bytes": 318
+    },
+    {
+      "path": "res/rx.xml",
+      "bytes": 680,
+      "compressed_bytes": 301
+    },
+    {
+      "path": "res/rz.xml",
+      "bytes": 396,
+      "compressed_bytes": 229
+    },
+    {
+      "path": "res/s0.png",
+      "bytes": 403,
+      "compressed_bytes": 403
+    },
+    {
+      "path": "res/s3.9.png",
+      "bytes": 245,
+      "compressed_bytes": 245
+    },
+    {
+      "path": "res/s4.png",
+      "bytes": 98,
+      "compressed_bytes": 98
+    },
+    {
+      "path": "res/sA.9.png",
+      "bytes": 212,
+      "compressed_bytes": 212
+    },
+    {
+      "path": "res/sA.xml",
+      "bytes": 464,
+      "compressed_bytes": 230
+    },
+    {
+      "path": "res/sK.webp",
+      "bytes": 4877,
+      "compressed_bytes": 4877
+    },
+    {
+      "path": "res/sO.xml",
+      "bytes": 700,
+      "compressed_bytes": 364
+    },
+    {
+      "path": "res/sS.xml",
+      "bytes": 628,
+      "compressed_bytes": 279
+    },
+    {
+      "path": "res/sX.xml",
+      "bytes": 724,
+      "compressed_bytes": 284
+    },
+    {
+      "path": "res/sg.9.png",
+      "bytes": 226,
+      "compressed_bytes": 226
+    },
+    {
+      "path": "res/sl.xml",
+      "bytes": 1332,
+      "compressed_bytes": 434
+    },
+    {
+      "path": "res/sn.xml",
+      "bytes": 400,
+      "compressed_bytes": 214
+    },
+    {
+      "path": "res/t3.xml",
+      "bytes": 588,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/t8.xml",
+      "bytes": 1012,
+      "compressed_bytes": 320
+    },
+    {
+      "path": "res/tG.png",
+      "bytes": 476,
+      "compressed_bytes": 476
+    },
+    {
+      "path": "res/tI.xml",
+      "bytes": 524,
+      "compressed_bytes": 255
+    },
+    {
+      "path": "res/tL.xml",
+      "bytes": 716,
+      "compressed_bytes": 322
+    },
+    {
+      "path": "res/tS.png",
+      "bytes": 321,
+      "compressed_bytes": 321
+    },
+    {
+      "path": "res/tS.xml",
+      "bytes": 660,
+      "compressed_bytes": 300
+    },
+    {
+      "path": "res/tU.9.png",
+      "bytes": 208,
+      "compressed_bytes": 208
+    },
+    {
+      "path": "res/tZ.9.png",
+      "bytes": 198,
+      "compressed_bytes": 198
+    },
+    {
+      "path": "res/ta.png",
+      "bytes": 202,
+      "compressed_bytes": 202
+    },
+    {
+      "path": "res/te.png",
+      "bytes": 278,
+      "compressed_bytes": 278
+    },
+    {
+      "path": "res/tp.xml",
+      "bytes": 524,
+      "compressed_bytes": 254
+    },
+    {
+      "path": "res/tr.9.png",
+      "bytes": 960,
+      "compressed_bytes": 960
+    },
+    {
+      "path": "res/u0.xml",
+      "bytes": 1196,
+      "compressed_bytes": 397
+    },
+    {
+      "path": "res/u3.png",
+      "bytes": 513,
+      "compressed_bytes": 513
+    },
+    {
+      "path": "res/u4.xml",
+      "bytes": 396,
+      "compressed_bytes": 224
+    },
+    {
+      "path": "res/u5.webp",
+      "bytes": 3435,
+      "compressed_bytes": 3435
+    },
+    {
+      "path": "res/uJ.xml",
+      "bytes": 848,
+      "compressed_bytes": 432
+    },
+    {
+      "path": "res/uL.9.png",
+      "bytes": 966,
+      "compressed_bytes": 966
+    },
+    {
+      "path": "res/uR.xml",
+      "bytes": 1232,
+      "compressed_bytes": 523
+    },
+    {
+      "path": "res/uR1.xml",
+      "bytes": 840,
+      "compressed_bytes": 436
+    },
+    {
+      "path": "res/uj.9.png",
+      "bytes": 196,
+      "compressed_bytes": 196
+    },
+    {
+      "path": "res/up.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/us.9.png",
+      "bytes": 1638,
+      "compressed_bytes": 1638
+    },
+    {
+      "path": "res/ut.9.png",
+      "bytes": 754,
+      "compressed_bytes": 754
+    },
+    {
+      "path": "res/uu.9.png",
+      "bytes": 204,
+      "compressed_bytes": 204
+    },
+    {
+      "path": "res/v-.xml",
+      "bytes": 940,
+      "compressed_bytes": 472
+    },
+    {
+      "path": "res/v4.9.png",
+      "bytes": 208,
+      "compressed_bytes": 208
+    },
+    {
+      "path": "res/vG.xml",
+      "bytes": 1396,
+      "compressed_bytes": 597
+    },
+    {
+      "path": "res/vH.xml",
+      "bytes": 556,
+      "compressed_bytes": 294
+    },
+    {
+      "path": "res/vJ.xml",
+      "bytes": 528,
+      "compressed_bytes": 285
+    },
+    {
+      "path": "res/vL.9.png",
+      "bytes": 223,
+      "compressed_bytes": 223
+    },
+    {
+      "path": "res/vR.xml",
+      "bytes": 372,
+      "compressed_bytes": 225
+    },
+    {
+      "path": "res/vT.xml",
+      "bytes": 320,
+      "compressed_bytes": 188
+    },
+    {
+      "path": "res/vV.xml",
+      "bytes": 336,
+      "compressed_bytes": 176
+    },
+    {
+      "path": "res/vZ.xml",
+      "bytes": 388,
+      "compressed_bytes": 217
+    },
+    {
+      "path": "res/vf.xml",
+      "bytes": 548,
+      "compressed_bytes": 286
+    },
+    {
+      "path": "res/vg.xml",
+      "bytes": 1088,
+      "compressed_bytes": 430
+    },
+    {
+      "path": "res/vl.xml",
+      "bytes": 1584,
+      "compressed_bytes": 530
+    },
+    {
+      "path": "res/vn.xml",
+      "bytes": 740,
+      "compressed_bytes": 312
+    },
+    {
+      "path": "res/vo.png",
+      "bytes": 727,
+      "compressed_bytes": 727
+    },
+    {
+      "path": "res/vq.xml",
+      "bytes": 1020,
+      "compressed_bytes": 534
+    },
+    {
+      "path": "res/vv.xml",
+      "bytes": 344,
+      "compressed_bytes": 190
+    },
+    {
+      "path": "res/vz.9.png",
+      "bytes": 181,
+      "compressed_bytes": 181
+    },
+    {
+      "path": "res/w2.9.png",
+      "bytes": 1138,
+      "compressed_bytes": 1138
+    },
+    {
+      "path": "res/w9.xml",
+      "bytes": 464,
+      "compressed_bytes": 231
+    },
+    {
+      "path": "res/wL.9.png",
+      "bytes": 437,
+      "compressed_bytes": 437
+    },
+    {
+      "path": "res/wN.9.png",
+      "bytes": 225,
+      "compressed_bytes": 225
+    },
+    {
+      "path": "res/wP.xml",
+      "bytes": 592,
+      "compressed_bytes": 311
+    },
+    {
+      "path": "res/w_.png",
+      "bytes": 214,
+      "compressed_bytes": 214
+    },
+    {
+      "path": "res/wa.xml",
+      "bytes": 920,
+      "compressed_bytes": 372
+    },
+    {
+      "path": "res/wj.xml",
+      "bytes": 3896,
+      "compressed_bytes": 1270
+    },
+    {
+      "path": "res/x3.9.png",
+      "bytes": 212,
+      "compressed_bytes": 212
+    },
+    {
+      "path": "res/x4.xml",
+      "bytes": 1528,
+      "compressed_bytes": 736
+    },
+    {
+      "path": "res/xH.png",
+      "bytes": 186,
+      "compressed_bytes": 186
+    },
+    {
+      "path": "res/xR.9.png",
+      "bytes": 194,
+      "compressed_bytes": 194
+    },
+    {
+      "path": "res/xR.png",
+      "bytes": 337,
+      "compressed_bytes": 337
+    },
+    {
+      "path": "res/xa.9.png",
+      "bytes": 221,
+      "compressed_bytes": 221
+    },
+    {
+      "path": "res/xa.xml",
+      "bytes": 1176,
+      "compressed_bytes": 523
+    },
+    {
+      "path": "res/xd.xml",
+      "bytes": 1676,
+      "compressed_bytes": 675
+    },
+    {
+      "path": "res/xj.xml",
+      "bytes": 588,
+      "compressed_bytes": 252
+    },
+    {
+      "path": "res/y-.xml",
+      "bytes": 396,
+      "compressed_bytes": 228
+    },
+    {
+      "path": "res/y4.xml",
+      "bytes": 388,
+      "compressed_bytes": 216
+    },
+    {
+      "path": "res/y6.xml",
+      "bytes": 588,
+      "compressed_bytes": 258
+    },
+    {
+      "path": "res/yH.9.png",
+      "bytes": 184,
+      "compressed_bytes": 184
+    },
+    {
+      "path": "res/yS.xml",
+      "bytes": 400,
+      "compressed_bytes": 211
+    },
+    {
+      "path": "res/yT.xml",
+      "bytes": 724,
+      "compressed_bytes": 284
+    },
+    {
+      "path": "res/yV.xml",
+      "bytes": 576,
+      "compressed_bytes": 297
+    },
+    {
+      "path": "res/yY.9.png",
+      "bytes": 186,
+      "compressed_bytes": 186
+    },
+    {
+      "path": "res/ya.xml",
+      "bytes": 592,
+      "compressed_bytes": 316
+    },
+    {
+      "path": "res/yg.9.png",
+      "bytes": 395,
+      "compressed_bytes": 395
+    },
+    {
+      "path": "res/yw.webp",
+      "bytes": 1539,
+      "compressed_bytes": 1539
+    },
+    {
+      "path": "res/z-.9.png",
+      "bytes": 221,
+      "compressed_bytes": 221
+    },
+    {
+      "path": "res/z3.xml",
+      "bytes": 848,
+      "compressed_bytes": 374
+    },
+    {
+      "path": "res/z9.9.png",
+      "bytes": 417,
+      "compressed_bytes": 417
+    },
+    {
+      "path": "res/zE.png",
+      "bytes": 324,
+      "compressed_bytes": 324
+    },
+    {
+      "path": "res/zG.xml",
+      "bytes": 540,
+      "compressed_bytes": 280
+    },
+    {
+      "path": "res/zK.xml",
+      "bytes": 2652,
+      "compressed_bytes": 843
+    },
+    {
+      "path": "res/zK1.xml",
+      "bytes": 1416,
+      "compressed_bytes": 565
+    },
+    {
+      "path": "res/zR.xml",
+      "bytes": 952,
+      "compressed_bytes": 447
+    },
+    {
+      "path": "res/zR1.xml",
+      "bytes": 2864,
+      "compressed_bytes": 910
+    },
+    {
+      "path": "res/zV.9.png",
+      "bytes": 2463,
+      "compressed_bytes": 2463
+    },
+    {
+      "path": "res/zX.xml",
+      "bytes": 352,
+      "compressed_bytes": 197
+    },
+    {
+      "path": "res/zc.xml",
+      "bytes": 956,
+      "compressed_bytes": 412
+    },
+    {
+      "path": "res/ze.png",
+      "bytes": 8315,
+      "compressed_bytes": 8315
+    },
+    {
+      "path": "res/zp.xml",
+      "bytes": 448,
+      "compressed_bytes": 218
+    },
+    {
+      "path": "res/zq.xml",
+      "bytes": 464,
+      "compressed_bytes": 269
+    },
+    {
+      "path": "res/zs.xml",
+      "bytes": 464,
+      "compressed_bytes": 232
+    },
+    {
+      "path": "res/zw.9.png",
+      "bytes": 1510,
+      "compressed_bytes": 1510
+    },
+    {
+      "path": "resources.arsc",
+      "bytes": 1394668,
+      "compressed_bytes": 1394668
+    },
+    {
+      "path": "META-INF/SHIKHSHA.SF",
+      "bytes": 129294,
+      "compressed_bytes": 52776
+    },
+    {
+      "path": "META-INF/SHIKHSHA.RSA",
+      "bytes": 1521,
+      "compressed_bytes": 1448
+    },
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 129167,
+      "compressed_bytes": 49977
+    }
+  ],
+  "secret_indicators": []
+}
